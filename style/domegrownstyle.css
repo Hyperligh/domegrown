@@ -8,15 +8,15 @@
 #container {
 	max-width: 1194px;
 	min-width: 776px;
-	background-color: #3f3f3f;
 	margin: 0 auto;
+
 }
 header #top-head{
-	background-color: #ffdd22;
+	background-color: #667F6E;
 }
 header h1 {
 	float:right;
-	margin:0 0 0 25px;
+	
 }
 #hero img{
 	height:100%;
@@ -31,13 +31,16 @@ nav ul li{
 	margin:0px 5px 0px 5px;
 	font-size: 130%;
 	width:12%;
-	background-color: #5f5f5f;
+	background-color: rgba(7,96,204,0.4);
 	min-height: 45px;
 	line-height: 45px;
+	text-align: center;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
 }
 nav ul li a {
 	text-decoration: none;
 	display:block;
+	color:black;
 	
 }
 header nav {
@@ -46,29 +49,94 @@ header nav {
 	top:25px;
 	left:50px;
 }
-#callouts #home-slideshow img{
-	width:35%;
-	height:35%;
 
-}
 #cta {
 	float:right;
 	position: relative;
-	bottom:170px;
-	right:150px;
+	bottom:190px;
+	right:25px;
 	font-size: 175%;
 }
 #cta ul li{
 	list-style-type: none;
 	width:150px;
-	height: 125px;
+	height: 105px;
 	background-color: #34fd45;
 	float:right;
-	line-height: 125px;
-	margin:0 auto;
+	line-height: 105px;
+	text-align: center;
+	box-shadow: 2px 2px 2px black;
+	margin:0px 30px 0px 30px;
+	
 }
 #cta ul li a {
 	text-decoration: none;
 	display:block;
+
+}
+.cta-extension {
+	height:105px;
+	width: 30px;
+	background-color: #1A7F23;
+	position: relative;
+	left:151px;
+	bottom: 105px;
+	box-shadow: 2px 2px 2px black;
+}
+#rows {
+	width: 100%;
+	position: relative;
+	bottom:49px;
+
+}
+
+
+.left-65 {
+	width:60%;
+	left:35px;
+}
+.left-65 h1, .left-65 h2, .left-65 h3 {
+	margin:0px 0px 10px 0px;
+}
+.right-35 {
+	float: right;
+	width:30%;
+	
+	text-align: center;	
+	position: relative;
+	bottom:100px;
+
+
+}
+
+.row1-content{
+	position: relative;
+	background-color: #8FB299;
+	width: 100%;
+	
+
+}
+.row2-content {
+	background-color: #667F6E;
+	
+}
+.row1-content h1, .row1-content h2, .row1-content p, .row2-content h1, .row2-content h2, .row2-content p{
+	margin: 5px 10px 5px 10px;
+}
+
+footer {
+	background-color:#ffffff;
+	border-bottom: 1px solid black;
+	margin:52.5px 0px 0px 0px;
+	clear:both;
+	min-height:105px;
+	
+}
+
+.bottom-border {
+	border-bottom: 1px solid black;
+	padding: 10px 0px 0px 0px;
+	width:97%;
+	margin: 0 auto;
 }
 
