@@ -12,7 +12,7 @@
 
 }
 header #top-head{
-	background-color: #667F6E;
+	background-color: #CCCC8F;
 }
 header h1 {
 	float:right;
@@ -31,7 +31,7 @@ nav ul li{
 	margin:0px 5px 0px 5px;
 	font-size: 130%;
 	width:12%;
-	background-color: rgba(7,96,204,0.4);
+	background-color: rgba(7,96,204,0.6);
 	min-height: 45px;
 	line-height: 45px;
 	text-align: center;
@@ -105,9 +105,13 @@ header nav {
 	text-align: center;	
 	position: relative;
 	bottom:100px;
-
-
 }
+.row2-content .right-35{
+	bottom {
+		
+	}
+}
+
 
 .row1-content{
 	position: relative;
