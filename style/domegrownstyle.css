@@ -123,20 +123,13 @@ header nav {
 
 .left-65 {
 	width:60%;
-	border:2px solid blue;
-	
-	
-	
 }
 
 .right-35 {
 	width:30%;
-	border:2px solid red;
 	left:69.7%;
 	position: absolute;
-	z-index: 100;
-
-
+	
 }
 .right-row-1 {
 	top: 0px;
@@ -146,6 +139,9 @@ header nav {
 .right-row-2 {
 	top: 0px;
 
+}
+.right-row-2 h2 {
+	text-align: center;
 }
 #rows {
 	position: relative;
