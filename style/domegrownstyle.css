@@ -7,31 +7,31 @@
 }
 #container {
 	max-width: 1194px;
-	min-width: 776px;
 	margin: 0 auto;
+	position: relative;
 
 }
 header #top-head{
 	background-color: #CCCC8F;
-}
-header h1 {
-	float:right;
+	overflow: hidden;
 	
+}
+header h1, header h2{
+	float:right;
 }
 #hero img{
 	height:100%;
 	width: 100%;
 	margin:0 auto;
-	position:relative;
-	top:-45px;
+	
 }
 nav ul li{
 	float:left;
 	list-style-type: none;
 	margin:0px 5px 0px 5px;
 	font-size: 130%;
-	width:12%;
-	background-color: rgba(7,96,204,0.6);
+	width:12.25%;
+	background-color: rgba(7,96,204,0.8);
 	min-height: 45px;
 	line-height: 45px;
 	text-align: center;
@@ -44,9 +44,10 @@ nav ul li a {
 	
 }
 header nav {
-	position: relative;
+	width:100%;
+	position: absolute;
 	z-index: 100;
-	top:25px;
+	top:181px;
 	left:50px;
 }
 
@@ -83,63 +84,84 @@ header nav {
 	bottom: 105px;
 	box-shadow: 2px 2px 2px black;
 }
-#rows {
-	width: 100%;
-	position: relative;
-	bottom:49px;
-
-}
 
 
-.left-65 {
-	width:60%;
-	left:35px;
-}
-.left-65 h1, .left-65 h2, .left-65 h3 {
-	margin:0px 0px 10px 0px;
-}
-.right-35 {
-	float: right;
-	width:30%;
-	
-	text-align: center;	
-	position: relative;
-	bottom:100px;
-}
-.row2-content .right-35{
-	bottom {
-		
-	}
-}
+
+
+
 
 
 .row1-content{
-	position: relative;
 	background-color: #8FB299;
+	min-height: 125px;
 	width: 100%;
-	
+	position: relative;
+	height:auto;
 
+
+	
 }
 .row2-content {
 	background-color: #667F6E;
+	width:100%;
+	min-height: 100px;
+	position: relative;
 	
 }
-.row1-content h1, .row1-content h2, .row1-content p, .row2-content h1, .row2-content h2, .row2-content p{
-	margin: 5px 10px 5px 10px;
+
+.left-65 {
+	width:60%;
+	border:2px solid blue;
+	
+	
+	
 }
+
+.right-35 {
+	width:30%;
+	border:2px solid red;
+	left:69.7%;
+	position: absolute;
+	z-index: 100;
+
+
+}
+.right-row-1 {
+	top: 0px;
+	text-align: center;
+
+}
+.right-row-2 {
+	top: 0px;
+
+}
+#rows {
+	position: relative;
+	top:-5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
 	background-color:#ffffff;
 	border-bottom: 1px solid black;
-	margin:52.5px 0px 0px 0px;
+	min-height:95px;
 	clear:both;
-	min-height:105px;
-	
 }
 
 .bottom-border {
 	border-bottom: 1px solid black;
-	padding: 10px 0px 0px 0px;
 	width:97%;
 	margin: 0 auto;
 }
