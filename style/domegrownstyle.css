@@ -3,17 +3,20 @@
 	padding:0;
 	margin:0;
 	border:0;
-
 }
 #container {
 	max-width: 1194px;
 	margin: 0 auto;
 	position: relative;
-
+	line-height: 21px;
+	font-size: 105%;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
 }
 header #top-head{
-	background-color: #CCCC8F;
+	background-color: #7F7532;
 	overflow: hidden;
+	text-shadow:2px 2px 1px rgba(0,0,0,0.4);
 	
 }
 header h1, #tagline{
@@ -23,9 +26,7 @@ header h1, #tagline{
 #tagline {
 	position: absolute;
 	top:55px;
-	right:0px;
-
-	
+	right:0px;	
 }
 #hero {
 	width:1194px;
@@ -72,7 +73,7 @@ header nav {
 }
 #cta ul li{
 	list-style-type: none;
-	width:150px;
+	width:175px;
 	height: 105px;
 	background-color: #34fd45;
 	float:right;
@@ -85,75 +86,70 @@ header nav {
 #cta ul li a {
 	text-decoration: none;
 	display:block;
-
 }
 .cta-extension {
 	height:105px;
 	width: 30px;
-	background-color: #1A7F23;
 	position: relative;
-	left:151px;
+	left:176px;
 	bottom: 105px;
 	box-shadow: 2px 2px 2px black;
+	background-image: url(../photos/svg-social-icons/right-arrow.svg);
+	background-color: #1A7F23;
+	background-repeat: no-repeat;
+	background-size: 65px 65px;
+	background-position: center;
 }
-
-
-
-
-
 
 
 .row1-content{
 	background-color: #8FB299;
-	min-height: 125px;
 	width: 100%;
 	position: relative;
-	height:auto;
-
 
 	
 }
 .row2-content {
 	background-color: #667F6E;
 	width:100%;
-	min-height: 100px;
 	position: relative;
-	
 }
-
 .left-65 {
-	width:60%;
+	width:61%;
+	padding:20px 20px 20px 40px;
+	position: relative;
 }
-
+.left-65 h1, .left-65 h2, .left-65 h3, .left-65 h4, .right-35 h2, .right-35 h3, .right-35 h4{
+	padding:5px;
+}
+.left-65 h1, .left-65 h3{
+	padding-bottom: 13px;
+}
 .right-35 {
 	width:30%;
-	left:69.7%;
+	left:68%;
+	padding:10px;
+	top:0px;
 	position: absolute;
-	
+
 }
 .right-row-1 {
-	top: 0px;
+	
 	text-align: center;
-
+}
+.right-row-1 .social-icons {
+	width:45px;
+	height:45px;
 }
 .right-row-2 {
-	top: 0px;
-
+	
 }
 .right-row-2 h2 {
 	text-align: center;
 }
 #rows {
-	position: relative;
-	top:-5px;
+	height:100%;
 }
-
-
-
-
-
-
-
 
 
 
@@ -166,6 +162,7 @@ footer {
 	border-bottom: 1px solid black;
 	min-height:95px;
 	clear:both;
+
 }
 
 .bottom-border {
@@ -173,4 +170,14 @@ footer {
 	width:97%;
 	margin: 0 auto;
 }
+
+
+.cf:before,.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+
 
