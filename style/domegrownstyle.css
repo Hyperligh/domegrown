@@ -16,8 +16,20 @@ header #top-head{
 	overflow: hidden;
 	
 }
-header h1, header h2{
+header h1, #tagline{
 	float:right;
+	margin:20px 55px 0px 0px;
+}
+#tagline {
+	position: absolute;
+	top:55px;
+	right:0px;
+
+	
+}
+#hero {
+	width:1194px;
+	height:410px;
 }
 #hero img{
 	height:100%;
