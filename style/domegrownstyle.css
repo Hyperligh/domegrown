@@ -67,17 +67,17 @@ header nav {
 #cta {
 	float:right;
 	position: relative;
-	bottom:190px;
+	bottom:110px;
 	right:25px;
 	font-size: 175%;
 }
 #cta ul li{
 	list-style-type: none;
 	width:175px;
-	height: 105px;
+	height: 85px;
 	background-color: #34fd45;
 	float:right;
-	line-height: 105px;
+	line-height: 85px;
 	text-align: center;
 	box-shadow: 2px 2px 2px black;
 	margin:0px 30px 0px 30px;
@@ -88,11 +88,11 @@ header nav {
 	display:block;
 }
 .cta-extension {
-	height:105px;
+	height:85px;
 	width: 30px;
 	position: relative;
 	left:176px;
-	bottom: 105px;
+	bottom: 85px;
 	box-shadow: 2px 2px 2px black;
 	background-image: url(../photos/svg-social-icons/right-arrow.svg);
 	background-color: #1A7F23;
