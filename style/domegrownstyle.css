@@ -181,3 +181,17 @@ footer {
 }
 
 
+
+
+
+@media screen and (min-width: 768px){
+	#hero img{
+		height: 100%;
+		width:100%;
+
+	}
+
+
+}
+
+
