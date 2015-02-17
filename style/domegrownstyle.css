@@ -107,7 +107,7 @@ header nav {
 #cta {
 	float:right;
 	position: relative;
-	bottom:110px;
+	bottom:75px;
 	right:25px;
 	font-size: 175%;
 	z-index: 100;
@@ -116,10 +116,10 @@ header nav {
 #cta ul li{
 	list-style-type: none;
 	width:175px;
-	height: 85px;
-	background-color:rgba(229,159,48,0.7);
+	height: 65px;
+	background-color:rgba(255,222,0,0.75);
 	float:right;
-	line-height: 85px;
+	line-height: 65px;
 	text-align: center;
 	box-shadow: 2px 2px 2px black;
 	margin:0px 30px 0px 30px;
@@ -128,18 +128,18 @@ header nav {
 #cta ul li a {
 	text-decoration: none;
 	display:block;
-	height: 85px;
+	height: 65px;
 	color:black;
 }
 .cta-extension {
-	height:85px;
+	height:65px;
 	width: 30px;
 	position: relative;
 	left:175px;
-	bottom: 85px;
+	bottom: 65px;
 	box-shadow: 2px 2px 2px black;
 	background-image: url(../photos/svg-social-icons/right-arrow.svg);
-	background-color: #7F5410;
+	background-color: rgba(127,111,0,0.75);
 	background-repeat: no-repeat;
 	background-size: 65px 65px;
 	background-position: center;
@@ -193,11 +193,11 @@ header nav {
 
 .left-row-1, .right-row-1{
 	position: relative;
-	bottom:75px;
+	top:-70px;
 }
 .anchor {
 	text-decoration: none;
-	color:#E59F30;
+	color:#FFDE00;
 }
 .anchor:hover {
 	color:#E5BF42;
