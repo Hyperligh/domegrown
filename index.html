@@ -2,10 +2,13 @@
 <html lan="en-US">
 <head>
 	<meta name="description" content="Bend, OR local farm near Redmond | Dome Grown">
-	<meta name="viewport" content="width=device-wdith, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 	<title>Local farm in Bend, OR | Dome Grown Produce</title>
 	<link rel="stylesheet" href="style/domegrownstyle.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
 
 </head>
 
@@ -13,11 +16,13 @@
 	<div id="container">
 		<header>
 			<div id="top-head">	
-				<img src="photos/dpg-bend-or-farms-logo-transparent.png" alt="Dome Grown Produce has year  round vegetables in Bend, OR">
-			
-			<h1>Dome Grown Produce</h1>
+				<img class="logo" src="photos/dpg-bend-or-farms-logo-transparent.png" alt="Dome Grown Produce has year round vegetables in Bend, OR">
+				<div id="tagline">
+				<h1>"Come on down and get your<br><span> homegrown at Dome Grown"</span></h1></div>
+					<h4>Phone Number: 541-678-3064</h4>
+				
 			</div>
-					<nav>
+					<nav id="main-nav">
 						<ul>
 							<li><a href="#">Home</a></li>
 							<li><a href="#">About Us</a></li>
@@ -29,78 +34,97 @@
 
 						</ul>
 					</nav>
-				<div id="hero">
-				<img src="photos/dome-grown-produce-local-farm-bend.jpg" alt="Local produce in Bend, OR">
-				</div>
+				
+				
+					<ul class="hero" id="hero">
+						<li><img src="photos/dome-grown-produce-local-farm-bend.jpg" alt="Local produce in Bend, OR"></li>
+						<li><img src="photos/purple-flower-redmond-local-farm.jpg" alt="Local produce in Bend, OR"></li>
+						<li><img src="photos/stormy-night-in-redmond-local-farms.jpg" alt="Local produce in Bend, OR"></li>
+						<li><img src="photos/redmond-farms-local-produce.jpg" alt="Local produce in Bend, OR"></li>
+					</ul>
+				
+				
 								<div id="cta">
 									<ul>
 										<li><a href="#">Contact Us<div class="cta-extension"></div></a></li>
-										<li><a href="#">CTA-two<div class="cta-extension"></div></a></li>
+										<li><a class="anchor" href="pdf/dome-grown-produce-csa-signup-brochure.pdf" target="_blank">CSA Signup<div class="cta-extension"></div></a></li>
 									</ul>
 								</div>
 
 		</header>
-		<div id="rows">	
-			<div class="row1-content">
-				<div class="left-65">
-						<h1>Welcome to our Local farm in Bend, OR</h1>
+				
+				
+					<div class="row1-content cf">
+						<div class="left-65 left-row-1">
+								<h1><span>Welcome to Dome Grown Produce</span></h1>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-				<div class="right-35">
-					<h3>Dome Grown Produce</h3>
-					<p>123 97 Bend, Or</p>
-					<p>541-123-4567</p>
-					<p>Facebook</p>
-					<p>Google +</p>
-				</div>
+							<p>After living in Colorado for six years, then moving to Oregon almost 10 years ago, and a few odd jobs later, I have finally landed at my farm. My excitement for growing and eating fresh vegetables was renewed after moving to an area that has a more temperate climate than the mountains of Colorado.Since moving here I have been growing flowers, vegetables, and herbs organically.The first garden was a mere 4’x8’ raised bed and now I get to talk in acres. I learned a lot about the area by working at a garden center for six years.
+							</p>
 
-			</div>
+					
+						</div>
+								<div class="right-35 right-row-1 center ">
+									<h3>Dome Grown Produce</h3>
+									<p>7858 SW 61st St.</p>
+									<p>Redmond, OR 97756</p>
+									<p>541-678-3064</p>
+									<a href="https://www.facebook.com/domegrown" target="_blank"><img class ="social-icons" src="photos/svg-social-icons/facebook29.svg"></a>
+									<!--<a href="https://plus.google.com/u/0/111212075289834648742/posts" target="_blank"><img class="social-icons" src="photos/svg-social-icons/google29.svg"></a>-->
+									
+								</div>
 
-
-
-
-
-				<div class="row2-content">
-					<div class="left-65">
-							<h3>Welcome to our Local farm in Bend, OR</h3>
-
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
-					<div class="right-35">
-						<h2>Place holder</h2>
-					</div>
+				
 
-				</div>
-						
+							<div class="row2-content cf">
+
+								<div class="left-65">
+										<h2>Our Beautiful Farm</h2>
+
+									<p>
+								     In 2010, my husband and I purchased our first greenhouse and this was when Dome Grown Produce was born.  It’s a 26’ geodesic dome kit that utilizes passive solar technology and unique undersoil heating tubes in raised beds. This helps us grow vegetables year round.   We disassembled and moved the dome to our new 20 acre farm in the summer of 2013, where we continue growing today.  Moving in the summer, pregnant with our son Emmett, and expanding a tiny business all at the same was a little hectic. We built another hoop-house, a big chicken run, and planted an orchard. This spring we are starting our first official CSA. We continue to clean up the property which had been neglected and overgrazed.  We will continue to fight the weeds that pop up everywhere.  We will continue to be stewards of our property the way I learned back in school.  We will also continue to produce good organic food and protect the land that we grow it on.
+									 After all this time I have finally made it back to my roots.
+									</p>
+								</div>
+										<div class="right-35 right-row-2 ">
+											<h3 class="center">Community Supported Agriculture</h3>
+												<p>
+													Sign up here for CSA packages by downloading the brochure. Just print and mail today.
+													<p><a class="anchor" href="pdf/dome-grown-produce-csa-signup-brochure.pdf" target="_blank">Download Brochure Here.</a></p>
+
+												</p>
+										</div>
+
+							</div>
+							
 
 
-				</div>
-				<footer>
-					<div class="bottom-border"></div>
-					<h3>Dome Grown Produce</h3>
-					<p>Redmond, Or 97701</p>
-					<p>541-123-4567</p>
-					<p>Facebook</p>
-					<p>Google +</p>
+			
+					<footer class="cf">
+									<div class="bottom-border"></div>
+						<h3>Dome Grown Produce</h3>
+						<p>7858 SW 61st St.</p>
+						<p>Redmond, OR 97756</p>
+						<p>541-678-3064</p>
+							<a href="https://www.facebook.com/domegrown" target="_blank"><img class ="footer-social-icons" src="photos/svg-social-icons/facebook29.svg"></a>
+							<!--<a href="https://plus.google.com/u/0/111212075289834648742/posts" target="_blank"><img class="footer-social-icons" src="photos/svg-social-icons/google29.svg"></a>-->
+								
 
-				</footer>
+								<script>
+									$(function () {
+								      $("#hero").responsiveSlides({
+								        maxwidth: 1194,
+								        speed: 1500,
+								        timeout: 6800
+								      });
+
+								    });
+								</script>			
 
 
-
-
+					</footer>
+					
 
 	</div>
-
 </body>
 </html>
