@@ -101,16 +101,18 @@ header nav {
 	position: absolute;
 	z-index: 100;
 	top:154px;
-	display: none;
+	
 
 }
 #cta {
 	float:right;
 	position: relative;
 	bottom:75px;
-	right:25px;
 	font-size: 175%;
 	z-index: 100;
+	border:2px solid red;
+	width:100%;
+	display: none;
 
 }
 #cta ul li{
@@ -129,7 +131,7 @@ header nav {
 	text-decoration: none;
 	display:block;
 	height: 65px;
-	color:black;
+	color:purple;
 }
 .cta-extension {
 	height:65px;
@@ -143,26 +145,20 @@ header nav {
 	background-repeat: no-repeat;
 	background-size: 65px 65px;
 	background-position: center;
+	display: none;
 }
 
 .row1-content {
 	background-color: #8FB299;
 	width: 100%;
-
-	
 }
 .row2-content {
 	background-color: #667F6E;
 	width:100%;
 	position: relative;
-	bottom:40px;
 	padding-bottom: 30px;
-	
 }
-.row1-content > .left-65, .row1-content > .right-row-1 {
-	bottom:100px;
-	position: relative;
-}
+
 .left-65 {
 	width:61%;
 	float:left;
@@ -191,10 +187,6 @@ header nav {
 	text-align: center;
 }
 
-.left-row-1, .right-row-1{
-	position: relative;
-	top:-70px;
-}
 .anchor {
 	text-decoration: none;
 	color:#FFDE00;
@@ -214,8 +206,6 @@ footer {
 	background-color:#ffffff;
 	border-bottom: 1px solid rgba(0,0,0,0.8);
 	min-height:95px;
-	position: relative;
-	bottom: 17px;
 	padding: 0px 20px 0px 20px;
 
 }
