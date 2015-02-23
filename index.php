@@ -1,37 +1,7 @@
-<!DOCTYPE html>
-<html lan="en-US">
-<head>
-	<meta name="description" content="Redmond, OR local organic farm that has CSA for pickup near Bend | Dome Grown Produce">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="utf-8">
-	<title>Local CSA organic farm in Redmond, OR | Dome Grown Produce</title>
-	<link rel="stylesheet" href="style/domegrownstyle.css">
-	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-	<script src="js/jquery-1.11.2.min.js"></script>
-	<script src="js/responsiveslides.min.js"></script>
-
-</head>
-
-<body>
-	<div id="container">
-		<header>
-			<div id="top-head">	
-				<a href="http://www.domegrown.org"><img class="logo" src="photos/dpg-bend-or-farms-logo-transparent.png" alt="Dome Grown Produce has year round vegetables in Bend, OR"></a>
-				<div id="tagline">
-				<h1>"Come on down and get your<br><span> homegrown at Dome Grown"</span></h1></div>
-					<h4>Phone Number: 541-678-3064</h4>
-				
-			</div>
-					<nav id="main-nav">
-						<ul>
-							<li><a href="#">About Us</a></li>
-							<li><a href="#">CSA</a></li>
-							<li><a href="#">Photo Gallery</a></li>
-							<li><a href="#">Map and Directions</a></li>
-							<li><a href="#">Recipes</a></li>
-							<li><a href="#">Events</a></li>
-						</ul>
-					</nav>
+<?php 
+require_once'header.php'; 
+$title
+?>
 				
 				
 					<ul class="hero" id="hero">
@@ -41,13 +11,8 @@
 						<li><img src="photos/redmond-farms-local-produce.jpg" alt="Local produce in Bend, OR"></li>
 					</ul>
 				
-				
-								<div id="cta">
-									<ul>
-										<li><a href="#">Contact Us<div class="cta-extension"></div></a></li>
-										<li><a class="anchor" href="pdf/dome-grown-produce-csa-signup-brochure.pdf" target="_blank">CSA Signup<div class="cta-extension"></div></a></li>
-									</ul>
-								</div>
+<?php require_once'cta.php'; ?>		
+
 
 		</header>
 				
@@ -64,12 +29,8 @@
 					
 						</div>
 								<div class="right-35 right-row-1 center ">
-									<h3>Dome Grown Produce</h3>
-									<p>7858 SW 61st St.</p>
-									<p>Redmond, OR 97756</p>
-									<p>541-678-3064</p>
-									<a href="https://www.facebook.com/domegrown" target="_blank"><img class ="social-icons" src="photos/svg-social-icons/facebook29.svg"></a>
-									<!--<a href="https://plus.google.com/u/0/111212075289834648742/posts" target="_blank"><img class="social-icons" src="photos/svg-social-icons/google29.svg"></a>-->
+
+									<img src="photos/sprouting-vegetables-local-csa-farm-redmond-or.jpg">
 									
 								</div>
 
@@ -79,7 +40,7 @@
 							<div class="row2-content cf">
 
 								<div class="left-65">
-										<h2>Our Beautiful Farm in Redmon, OR</h2>
+										<h2>Our Beautiful Farm in Redmond, OR</h2>
 
 									<p>
 								     In 2010, my husband and I purchased our first greenhouse and this was when Dome Grown Produce was born.  It’s a 26’ geodesic dome kit that utilizes passive solar technology and unique undersoil heating tubes in raised beds. This helps us grow vegetables year round.   We disassembled and moved the dome to our new 20 acre farm in the summer of 2013, where we continue growing today.  Moving in the summer, pregnant with our son Emmett, and expanding a tiny business all at the same was a little hectic. We built another hoop-house, a big chicken run, and planted an orchard. This spring we are starting our first official CSA. We continue to clean up the property which had been neglected and overgrazed.  We will continue to fight the weeds that pop up everywhere.  We will continue to be stewards of our property the way I learned back in school.  We will also continue to produce good organic food and protect the land that we grow it on.
@@ -100,29 +61,7 @@
 
 
 			
-					<footer class="cf">
-									<div class="bottom-border"></div>
-						<h3>Dome Grown Produce</h3>
-						<p>7858 SW 61st St.</p>
-						<p>Redmond, OR 97756</p>
-						<p>541-678-3064</p>
-							<a href="https://www.facebook.com/domegrown" target="_blank"><img class ="footer-social-icons" src="photos/svg-social-icons/facebook29.svg"></a>
-							<!--<a href="https://plus.google.com/u/0/111212075289834648742/posts" target="_blank"><img class="footer-social-icons" src="photos/svg-social-icons/google29.svg"></a>-->
-								
-
-								<script>
-									$(function () {
-								      $("#hero").responsiveSlides({
-								        maxwidth: 1194,
-								        speed: 1500,
-								        timeout: 6800
-								      });
-
-								    });
-								</script>			
-
-
-					</footer>
+<?php require_once'footer.php' ?>			
 					
 
 	</div>
