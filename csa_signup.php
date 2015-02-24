@@ -1,4 +1,8 @@
-<?php require_once'header.php'; ?>
+<?php 
+$title = "CSA signup in Redmond, OR local organic farm | Dome Grown Produce";
+$metad = "Dome Grown Produce CSA signup to get fresh local vegetables for pickup | Call us for more information at 541-678-3064";
+require_once'header.php'; 
+?>
 				
 			
 					<div class="hero" id="hero">
@@ -14,10 +18,10 @@
 				
 					<div class="row1-content cf">
 						<div class="left-65 left-row-1">
-								<h1><span>Place holder</span></h1>
+								<h1><span>CSA Signup in Redmond, OR</span></h1>
 								
 
-							<p>Place holder
+							<p>Check back soon for more information about our CSA.
 							</p>
 							
 

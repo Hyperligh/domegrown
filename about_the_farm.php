@@ -1,4 +1,8 @@
-<?php require_once'header.php'; ?>
+<?php 
+require_once'header.php'; 
+$title = "";
+$metad = "";
+?>
 				
 			
 					<div class="hero" id="hero">
@@ -7,17 +11,22 @@
 						
 					</div>
 				
-<?php require_once'cta.php'; ?>			
+<?php
+$title = "Redmond, OR local CSA organic ";
+$metad = "";
+
+
+require_once'cta.php'; ?>			
 
 		</header>
 				
 				
 					<div class="row1-content cf">
 						<div class="left-65 left-row-1">
-								<h1><span>Place holder</span></h1>
+								<h1><span>About Dome Grown Prodce</span></h1>
 								
 
-							<p>Place holder
+							<p>Check back soon to find out more information about Dome Grown Produce
 							</p>
 							
 

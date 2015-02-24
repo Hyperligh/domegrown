@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lan="en-US">
 <head>
-	<meta name="description" content="Redmond, OR local organic farm that has CSA for pickup near Bend | Dome Grown Produce">
+	<meta name="description" content="<?php echo $metad; ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
-	<title>Local CSA organic farm in Redmond, OR | Dome Grown Produce</title>
+	<title><?php echo $title; ?></title>
 	<link rel="icon" href="photos/dome-grown-produce-local-csa-farm-redmond-or-favicon.png">
 	<link rel="stylesheet" href="style/domegrownstyle.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>

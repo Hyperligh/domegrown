@@ -1,4 +1,8 @@
-<?php require_once'header.php'; ?>
+<?php 
+require_once'header.php'; 
+$title = "Get in contact with the organic local farm in Redmond, OR | Dome Grown Produce";
+$metad = "Get in contact with Dome Grown Produce about the organic farm that has CSA share signups";
+?>
 				
 			
 					<div class="hero" id="hero">
@@ -14,10 +18,10 @@
 				
 					<div class="row1-content cf">
 						<div class="left-65 left-row-1">
-								<h1><span>Place holder</span></h1>
+								<h1><span>Contact Dome Grown Produce</span></h1>
 								
 
-							<p>Place holder
+							<p>Check back soon to be able to contact Dome Grown Produce.
 							</p>
 							
 

@@ -1,4 +1,9 @@
-<?php require_once'header.php'; ?>
+<?php 
+require_once'header.php';
+$title = "";
+$metad = "";
+
+?>
 				
 			
 					<div class="hero" id="hero">
@@ -14,10 +19,10 @@
 				
 					<div class="row1-content cf">
 						<div class="left-65 left-row-1">
-								<h1><span>Place holder</span></h1>
+								<h1><span>About our CSA shares</span></h1>
 								
 
-							<p>Place holder
+							<p>Check back soon to get more information about our CSA.
 							</p>
 							
 

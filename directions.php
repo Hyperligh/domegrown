@@ -1,4 +1,8 @@
-<?php require_once'header.php'; ?>
+<?php 
+$title = "";
+$metad = "";
+require_once'header.php';
+?>
 				
 			
 					<div class="hero" id="hero">
@@ -14,10 +18,10 @@
 				
 					<div class="row1-content cf">
 						<div class="left-65 left-row-1">
-								<h1><span>Place holder</span></h1>
+								<h1><span>Directions to Dome Grown Produce</span></h1>
 								
 
-							<p>Place holder
+							<p>Check back soon to get a map and directions to Dome Grown Produce.
 							</p>
 							
 
