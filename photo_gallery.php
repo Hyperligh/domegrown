@@ -1,6 +1,6 @@
 <?php 
-$title = "";
-$metad = "";
+$title = "Beautiful organic farm in Redmond, OR | Dome Grown Produce";
+$metad = "Local organic farm has CSA packages available in Redmond, OR | Dome Grown Produce";
 require_once'header.php'; 
 ?>
 				
@@ -29,33 +29,14 @@ require_once'header.php';
 						</div>
 								<div class="right-35 right-row-1 center ">
 									
-									<img src="http://placehold.it/300x190">
+									
 									
 								</div>
 
 					</div>
 				
 
-							<div class="row2-content cf">
-
-								<div class="left-65">
-										<h2>Place holder</h2>
-
-									<p>
-								  
-									</p>
-								</div>
-										<div class="right-35 right-row-2 ">
-											<h3 class="center">Community Supported Agriculture</h3>
-												<p>
-													Sign up here for CSA packages by downloading the brochure. Just print and mail today.
-													<p><a class="anchor" href="pdf/dome-grown-produce-csa-signup-brochure.pdf" target="_blank">Download Brochure Here.</a></p>
-
-												</p>
-										</div>
-
-							</div>
-							
+						
 
 
 			
