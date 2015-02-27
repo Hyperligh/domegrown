@@ -93,7 +93,7 @@ header nav ul li {
 	float: right;
 	width:12.8%;
 	border-left: 1px solid rgba(0,0,0,0.5);
-	border-left-height: 90%;
+	
 
 }
 header nav ul {
@@ -220,6 +220,10 @@ header nav {
 
 
 
+
+
+
+
 footer {
 	background-color:#ffffff;
 	border-bottom: 1px solid rgba(0,0,0,0.8);
@@ -247,6 +251,32 @@ footer {
     clear: both;
 }
 
+
+/*specific to interior pages*/
+.form input[type=text], .form input[type=email],.form input[type=tel]{
+	height:30px;
+	width:220px;
+	border-radius: 6px;
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+.form input[type=submit]{
+	position: relative;
+	width:125px;
+	height:25px;
+	border-radius: 2px;
+	box-shadow: 2px 2px 3px black;
+	left:219px;
+}
+.form label {
+	display: inline-block;
+	width:125px;
+	font-size: 130%;
+
+}
+.form p {
+	background-color: rgba(0,0,0,0.5);
+	padding: 10px;
+}
 
 
 

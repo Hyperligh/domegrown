@@ -1,7 +1,8 @@
-<?php 
-require_once'header.php'; 
+<?php
 $title = "Get in contact with the organic local farm in Redmond, OR | Dome Grown Produce";
 $metad = "Get in contact with Dome Grown Produce about the organic farm that has CSA share signups";
+require_once'header.php'; 
+
 ?>
 				
 			
@@ -18,11 +19,18 @@ $metad = "Get in contact with Dome Grown Produce about the organic farm that has
 				
 					<div class="row1-content cf">
 						<div class="left-65 left-row-1">
-								<h1><span>Contact Dome Grown Produce</span></h1>
+							<h1><span>Contact Dome Grown Produce</span></h1>
 								
-
-							<p>Check back soon to be able to contact Dome Grown Produce.
-							</p>
+								<form class="form" action="csa_signup.php" method="POST">
+								<p><label for="name">Name:&nbsp;</label><input type="text" name="name" id="name"></p>
+								<p><label for="address">Address:&nbsp;</label><input type="text" name="address" id="address"></p>
+								<p><label for="city">City:&nbsp;</label><input type="text" name="city" id="city"></p>
+								<p><label for="state">State:&nbsp;</label><input type="text" name="state" id="state"></p>
+								<p><label for="zip">Zip:&nbsp;</label><input type="text" name="zip" id="zip"></p>
+								<p><label for="phone">Phone:&nbsp;</label><input type="tel" name="phone" id="phone"></p>
+								<p><label for="email">Email:&nbsp;</label><input type="email" name="email" id="email"></p>
+								<p><input type="submit" name="submit" value="Submit Form"></p>
+								</form>
 							
 
 					

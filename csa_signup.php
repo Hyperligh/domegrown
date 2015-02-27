@@ -20,9 +20,16 @@ require_once'header.php';
 						<div class="left-65 left-row-1">
 								<h1><span>CSA Signup in Redmond, OR</span></h1>
 								
-
-							<p>Check back soon for more information about our CSA.
-							</p>
+							<form class="form" action="csa_signup.php" method="POST">
+							<p><label for="name">Name:&nbsp;</label><input type="text" name="name" id="name"></p>
+							<p><label for="address">Address:&nbsp;</label><input type="text" name="address" id="address"></p>
+							<p><label for="city">City:&nbsp;</label><input type="text" name="city" id="city"></p>
+							<p><label for="state">State:&nbsp;</label><input type="text" name="state" id="state"></p>
+							<p><label for="zip">Zip:&nbsp;</label><input type="text" name="zip" id="zip"></p>
+							<p><label for="phone">Phone:&nbsp;</label><input type="tel" name="phone" id="phone"></p>
+							<p><label for="email">Email:&nbsp;</label><input type="email" name="email" id="email"></p>
+							<p><input type="submit" name="submit" value="Submit Form"></p>
+							</form>
 							
 
 					
