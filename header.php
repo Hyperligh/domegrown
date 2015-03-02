@@ -39,7 +39,7 @@
 							<li><a href="recipes.php">Recipes</a></li>
 							<li><a href="directions.php">Directions</a></li>
 							<li><a href="photo_gallery.php">Photo Gallery</a></li>
-							<li><a href="about_csa.php">CSA</a></li>
+							<li><a href="about_csa.php">About CSA</a></li>
 							<li><a href="about_the_farm.php">About Us</a></li>
 						</ul>
 					</nav>

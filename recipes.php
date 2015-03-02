@@ -21,7 +21,7 @@ require_once'header.php';
 								<h1><span>Recipes for seasonal vegetables</span></h1>
 								
 
-							<p>Check back soon to get recipces for your vegeatbales you get through our CSA.
+							<p>Check back soon to get recipces for your vegetables you get through our CSA.
 							</p>
 							
 

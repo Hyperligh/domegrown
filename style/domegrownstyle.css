@@ -129,7 +129,7 @@ header nav {
 	list-style-type: none;
 	width:175px;
 	height: 65px;
-	background-color:rgba(255,222,0,0.75);
+	background-color:rgba(255,222,0,0.78);
 	float:left;
 	line-height: 65px;
 	text-align: center;
@@ -160,7 +160,6 @@ header nav {
 .row1-content {
 	background-color: #8FB299;
 	width: 100%;
-	overflow: hidden;
 	padding: 0 0 25px 0;
 }
 
@@ -213,17 +212,6 @@ header nav {
 	color:#E5BF42;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 footer {
 	background-color:#ffffff;
 	border-bottom: 1px solid rgba(0,0,0,0.8);
@@ -250,34 +238,94 @@ footer {
 .cf:after {
     clear: both;
 }
+.problem {
+	background-color:rgba(255,222,0,0.78);
+	border:1px solid rgba(255,222,0,0.9);
+}
+.problem-checkboxes {
+	box-shadow: 1px 0px 1px rgba(255,222,0,0.78)
+}
 
 
 /*specific to interior pages*/
-.form input[type=text], .form input[type=email],.form input[type=tel]{
+.customer-information{
+	position: relative;
+	width:49%;
+	float:left;
+	clear: left;
+}
+.customer-information input[type=text], .customer-information input[type=email],.customer-information input[type=tel]{
 	height:30px;
 	width:220px;
 	border-radius: 6px;
 	box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
-.form input[type=submit]{
+.share-options input[type=submit]{
 	position: relative;
 	width:125px;
 	height:25px;
 	border-radius: 2px;
 	box-shadow: 2px 2px 3px black;
-	left:219px;
+	left:180px;
+	bottom:15px;
 }
-.form label {
+.customer-information label {
 	display: inline-block;
-	width:125px;
+	width:100px;
 	font-size: 130%;
+	position: relative;
+	top:4px;
 
 }
-.form p {
-	background-color: rgba(0,0,0,0.5);
+.customer-information p {
 	padding: 10px;
-}
+	
 
+}
+.share-options ul li{
+	padding:10px 50px 10px 10px;
+	list-style-type: none;
+}
+.share-options {
+	float:right;
+	width:49%;
+	position: relative;
+	left:40px;
+}
+.share-options input[type="checkbox"]{
+	float:right;
+	position: relative;
+	bottom:57.5px;
+	height:19px;
+	width:19px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+#sha_share {
+	background-color: red;
+}
+.last-child {
+	top:-93px;
+}
+.share-options p {
+	width:80%;
+}
+ 
+.indent {
+	position: relative;
+	left: 20px;
+	font-size: 90%;
+	padding:0 0 10px 0;
+}
+.required {
+	font-size: 120%;
+	color: #B20B08;
+	position: relative;
+	left:5px;
+	bottom: 5px;
+}
+h3 .required {
+	font-size: 97%;
+}
 
 
 /*

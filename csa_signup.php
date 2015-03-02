@@ -1,6 +1,7 @@
 <?php 
 $title = "CSA signup in Redmond, OR local organic farm | Dome Grown Produce";
 $metad = "Dome Grown Produce CSA signup to get fresh local vegetables for pickup | Call us for more information at 541-678-3064";
+$flag = false;
 require_once'header.php'; 
 ?>
 				
@@ -19,28 +20,80 @@ require_once'header.php';
 					<div class="row1-content cf">
 						<div class="left-65 left-row-1">
 								<h1><span>CSA Signup in Redmond, OR</span></h1>
+								<p>The farm is offering a few different share options so you pick the one that is right for you. 
+								Simply fill out this form online and pay through PayPal 
+								or <a class="anchor" href="pdf/dome-grown-produce-csa-signup-brochure.pdf">download the sign up form</a> and mail to the farm 
+								with your payment.</p><br />
+								<p>Shares can be made in 2 payments. Half by March 1st and the remainder by June 1st. Month Shares must be paid 
+								at the 1st of each month. Pick-up on Wednesday and Friday at the farm from 2-6pm.</p>
 								
-							<form class="form" action="csa_signup.php" method="POST">
-							<p><label for="name">Name:&nbsp;</label><input type="text" name="name" id="name"></p>
-							<p><label for="address">Address:&nbsp;</label><input type="text" name="address" id="address"></p>
-							<p><label for="city">City:&nbsp;</label><input type="text" name="city" id="city"></p>
-							<p><label for="state">State:&nbsp;</label><input type="text" name="state" id="state"></p>
-							<p><label for="zip">Zip:&nbsp;</label><input type="text" name="zip" id="zip"></p>
-							<p><label for="phone">Phone:&nbsp;</label><input type="tel" name="phone" id="phone"></p>
-							<p><label for="email">Email:&nbsp;</label><input type="email" name="email" id="email"></p>
-							<p><input type="submit" name="submit" value="Submit Form"></p>
-							</form>
-							
-
-					
 						</div>
-								<div class="right-35 right-row-1 center ">
+								<div class="right-35 ">
 									
-									
+									<img src="photos/organic-farm-redmond-or-sunset.jpg">
 									
 								</div>
 
 					</div>
+
+						<div class="row2-content cf">
+
+							<div class="left-65">
+								
+									
+									<form  class="form" id="form" action="csa_signup.php" method="GET">
+										<div class="customer-information">
+											<p><label for="name">Name:&nbsp;</label><input type="text" name="name" id="name"><span class="required">*</span></p>
+											<p><label for="address">Address:&nbsp;</label><input type="text" name="address" id="address"><span class="required">*</span></p>
+											<p><label for="city">City:&nbsp;</label><input type="text" name="city" id="city"><span class="required">*</span></p>
+											<p><label for="state">State:&nbsp;</label><input type="text" name="state" id="state"><span class="required">*</span></p>
+											<p><label for="zip">Zip:&nbsp;</label><input type="text" name="zip" id="zip"></p>
+											<p><label for="phone">Phone:&nbsp;</label><input type="tel" name="phone" id="phone"></p>
+											<p><label for="email">Email:&nbsp;</label><input type="email" name="email" id="email"><span class="required">*</span></p>
+											<p><span class="required">*</span>&nbsp; Required field</p>
+										</div>
+									
+											<div class="share-options">
+											
+												<p><h3>Share Options:<span class="required">*</span></h3></p>
+													<p>Check the box of your choice <br />CSA runs approximately 22 weeks.</p>
+														<ul>
+															<fieldset>
+															<li><h4>Large Family Share - $600</h4>
+																<p class="indent">8-10 items weekly, 3-4 people</p>
+																<input type="checkbox" name="csa-share" id="csa-share1" value="1" class="csa-share"></li>
+
+															<li><h4>Small Family Share - $350</h4>
+																<p class="indent">6-8 items weekly, 1-2 people</p>
+																<input type="checkbox" name="csa-share" id="csa-share2" value="2" class="csa-share"></li>
+
+															<li><h4>Month to Month Share - $125</h4>
+																<p class="indent">good option for someone who travels or doesn't need the whole season</p>
+																<input type="checkbox" name="csa-share" class="last-child csa-share" id="csa-share3" value="4"></li>
+																</fieldset>
+														</ul>
+													<p><input type="submit" name="submit" value="Submit Form"></p>
+													<button type="button" name="button" value="butttton">Press me</button>
+
+											</div>
+
+									</form>
+									
+									
+							
+						</div>
+						
+										<div class="right-35 right-row-2 ">
+											
+												
+											<div id="error"></div>
+											<div id="verfiy-window"> 
+												
+											</div>
+	
+										</div>
+
+						</div>
 				
 
 							
@@ -49,8 +102,31 @@ require_once'header.php';
 
 			
 <?php require_once'footer.php' ?>
-					
+<script src="js/form_validation.js"></script>					
 
 	</div>
+	<script>
+		$(document).ready(function() {
+
+			$('.form').submit(function(){
+			if(validateName() && validateAddress() && validateCity() && validateState() && validateEmail() && validateCheckBox()) {
+				$('#verfiy-window').html("<h4>Name:</h4>"+ "<p>" + $('#name').val() + "</p>");
+				$('#verfiy-window').append("<h4>Address:</h4>"+ "<p>" + $('#address').val() + "</p>");
+				$('#verfiy-window').append("<h4>City:</h4>"+ "<p>" + $('#city').val() + "</p>");
+				$('#verfiy-window').append("<h4>State:</h4>"+ "<p>" + $('#state').val() + "</p>");
+				$('#verfiy-window').append("<h4>Zip:</h4>"+ "<p>" + $('#zip').val() + "</p>");
+				$('#verfiy-window').append("<h4>Phone:</h4>"+ "<p>" + $('#phone').val() + "</p>");
+				$('#verfiy-window').append("<p><h4>Email:</h4>" + $('#email').val() + "</p>");
+				$('#verfiy-window').append("<p><h4>CSA Packages:</h4>" + $('#csa-share1').val() + "</p>");
+				
+				return false;
+			}
+			else {
+				return false;
+
+			}
+			});
+		});
+	</script>
 </body>
 </html>

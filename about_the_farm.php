@@ -18,7 +18,7 @@ require_once'header.php';
 				
 					<div class="row1-content cf">
 						<div class="left-65 left-row-1">
-								<h1><span>About Dome Grown Prodce</span></h1>
+								<h1><span>About Dome Grown Produce</span></h1>
 								
 
 							<p>It all started way back when I was just a little girl, and I grew up on a farm in Upstate New York.  Some of my first childhood memories are of the garden and helping my dad in it.  Well, I don’t know how much help I really was…  I distinctly remember helping plant corn and beans, because the seeds were large and easy to handle.  I also helped eat a lot of vegetables right off the plants.  My mom would always find me out in the garden with a mouthful of cherry tomatoes.  I think that growing up on the farm instilled in me the value of fresh, safe food.
