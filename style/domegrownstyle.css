@@ -260,7 +260,7 @@ footer {
 	border-radius: 6px;
 	box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
-.share-options input[type=submit]{
+.share-options input[type=submit], .submit{
 	position: relative;
 	width:125px;
 	height:25px;
@@ -292,15 +292,16 @@ footer {
 	position: relative;
 	left:40px;
 }
-.share-options input[type="checkbox"]{
+.share-options input[type="radio"]{
 	float:right;
 	position: relative;
 	bottom:57.5px;
 	height:19px;
 	width:19px;
-	box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+	
+	box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.3);
 }
-#sha_share {
+#csa_share {
 	background-color: red;
 }
 .last-child {
@@ -325,6 +326,15 @@ footer {
 }
 h3 .required {
 	font-size: 97%;
+}
+#verify-div p{
+	position: relative;
+	bottom:30px;
+	left:125px;
+}
+#verify-last {
+	position: relative;
+	left:200px;
 }
 
 

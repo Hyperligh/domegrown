@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lan="en-US">
+<html lang="en-US">
 <head>
 	<meta name="description" content="<?php echo $metad; ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">

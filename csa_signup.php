@@ -33,7 +33,6 @@ require_once'header.php';
 									<img src="photos/organic-farm-redmond-or-sunset.jpg">
 									
 								</div>
-
 					</div>
 
 						<div class="row2-content cf">
@@ -61,26 +60,24 @@ require_once'header.php';
 															<fieldset>
 															<li><h4>Large Family Share - $600</h4>
 																<p class="indent">8-10 items weekly, 3-4 people</p>
-																<input type="checkbox" name="csa-share" id="csa-share1" value="1" class="csa-share"></li>
+																<input type="radio" name="csa-share" id="csa-share1" value="Large Family Share - $600" class="csa-share"></li>
 
 															<li><h4>Small Family Share - $350</h4>
 																<p class="indent">6-8 items weekly, 1-2 people</p>
-																<input type="checkbox" name="csa-share" id="csa-share2" value="2" class="csa-share"></li>
+																<input type="radio" name="csa-share" id="csa-share2" value="Small Family Share - $350" class="csa-share"></li>
 
 															<li><h4>Month to Month Share - $125</h4>
 																<p class="indent">good option for someone who travels or doesn't need the whole season</p>
-																<input type="checkbox" name="csa-share" class="last-child csa-share" id="csa-share3" value="4"></li>
+																<input type="radio" name="csa-share" class="last-child csa-share" id="csa-share3" value="Month to Month Share - $125"></li>
 																</fieldset>
 														</ul>
-													<p><input type="submit" name="submit" value="Submit Form"></p>
-													<button type="button" name="button" value="butttton">Press me</button>
+													<p><input type="submit" name="submit" value="Add to Cart"></p>
+													
 
 											</div>
 
 									</form>
-									
-									
-							
+						
 						</div>
 						
 										<div class="right-35 right-row-2 ">
@@ -94,13 +91,7 @@ require_once'header.php';
 										</div>
 
 						</div>
-				
-
-							
-							
-
-
-			
+	
 <?php require_once'footer.php' ?>
 <script src="js/form_validation.js"></script>					
 
@@ -110,23 +101,37 @@ require_once'header.php';
 
 			$('.form').submit(function(){
 			if(validateName() && validateAddress() && validateCity() && validateState() && validateEmail() && validateCheckBox()) {
-				$('#verfiy-window').html("<h4>Name:</h4>"+ "<p>" + $('#name').val() + "</p>");
-				$('#verfiy-window').append("<h4>Address:</h4>"+ "<p>" + $('#address').val() + "</p>");
-				$('#verfiy-window').append("<h4>City:</h4>"+ "<p>" + $('#city').val() + "</p>");
-				$('#verfiy-window').append("<h4>State:</h4>"+ "<p>" + $('#state').val() + "</p>");
-				$('#verfiy-window').append("<h4>Zip:</h4>"+ "<p>" + $('#zip').val() + "</p>");
-				$('#verfiy-window').append("<h4>Phone:</h4>"+ "<p>" + $('#phone').val() + "</p>");
-				$('#verfiy-window').append("<p><h4>Email:</h4>" + $('#email').val() + "</p>");
-				$('#verfiy-window').append("<p><h4>CSA Packages:</h4>" + $('#csa-share1').val() + "</p>");
-				
+				$('#verfiy-window').html("<form method='GET' action='csa_confirmation.php'><div id='verify-div'><h4>Name:</h4>"+ "<p>" + 
+					$('#name').val() + "</p>" + "<h4>Address:</h4>"+ "<p>" + $('#address').val() + "</p>" +
+					"<h4>City:</h4>"+ "<p>" + $('#city').val() + "</p>" + "<h4>State:</h4>"+ "<p>" + $('#state').val() + "</p>" + 
+					"<h4>Zip:</h4>"+ "<p>" + $('#zip').val() + "</p>" + "<h4>Phone:</h4>"+ "<p>" + $('#phone').val() + "</p>" + 
+					"<h4>Email:</h4>" + "<p>" + $('#email').val() + "</p>" + "<h4>CSA Packages:</h4>" + "<p id='verify-last'>" + $('input[name=csa-share]:checked').val() +
+
+					"</p><input type='submit' name='verify' id='verify' class='submit' value='Verify and Submit'>" + 
+					"<input type='hidden' name='name' value='" + $('#name').val() + "'>" +
+					"<input type='hidden' name='address' value='" + $('#address').val() + "'>" +
+					"<input type='hidden' name='city' value='" + $('#city').val() + "'>" +
+					"<input type='hidden' name='state' value='" + $('#state').val() + "'>" +
+					"<input type='hidden' name='zip' value='" + $('#zip').val() + "'>" +
+					"<input type='hidden' name='phone' value='" + $('#phone').val() + "'>" +
+					"<input type='hidden' name='email' value='" + $('#email').val() + "'>" +
+					"<input type='hidden' name='csa-share' value='" + $('input[name=csa-share]:checked').val() + "'>" +
+
+
+					"</form></div>"
+						
+
+					);
 				return false;
 			}
 			else {
 				return false;
 
 			}
+
 			});
 		});
 	</script>
+
 </body>
 </html>

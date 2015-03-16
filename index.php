@@ -26,7 +26,7 @@ require_once'header.php';
 
 							<p>After living in Colorado for six years, then moving to Oregon almost 10 years ago, and a few odd jobs later, I have finally landed at my farm. My excitement for growing and eating fresh vegetables was renewed after moving to an area that has a more temperate climate than the mountains of Colorado.Since moving here I have been growing flowers, vegetables, and herbs organically.The first garden was a mere 4’x8’ raised bed and now I get to talk in acres. I learned a lot about the area by working at a garden center for six years.
 							</p>
-							<p><h4>Under construction - Check back soon to see the full website.</p></h4>
+							<p><h4>Under construction - Check back soon to see the full website.</h4></p>
 
 					
 						</div>

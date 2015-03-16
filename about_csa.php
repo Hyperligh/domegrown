@@ -26,11 +26,11 @@ require_once'header.php';
 							<ul class="indent">
 								<li>To know your farmers personally.</li>
 								<li>To know exactly where your food comes from (even see it growing!).</li>
-								<li>To eat healtful, often organically grown, seasonal fruits and vegetables.</li>
+								<li>To eat healthful, often organically grown, seasonal fruits and vegetables.</li>
 								<li>To support a local farm, preserving our essential rural environment.</li>
 								<li>To keep your hard earned money working in your community.</li>
 							</ul><br />
-							<p>Our CSA farm supports biodynamic agriculture, econmical, and environmentally sustainable methods.</p>
+							<p>Our CSA farm supports biodynamic agriculture, economical, and environmentally sustainable methods.</p>
 							
 
 					
@@ -47,7 +47,7 @@ require_once'header.php';
 								<div class="left-65">
 										<h2>Weekly CSA Share Examples</h2>
 
-									<p> Each week offers an exciting assortment of fresh produce. You'll get to experience first hand what 'eatin in season' really means. Starting as early as May the first fresh greens and hardy cold crops start rolling in. Not far behind come the main summer season crops, including tomatoes, basil, beans, and beets. Later in the year come a lot of your root crops, winter squash, and potatoes.</p><br />
+									<p> Each week offers an exciting assortment of fresh produce. You'll get to experience first hand what 'eating in season' really means. Starting as early as May the first fresh greens and hardy cold crops start rolling in. Not far behind come the main summer season crops, including tomatoes, basil, beans, and beets. Later in the year come a lot of your root crops, winter squash, and potatoes.</p><br />
 										<h4>Examples of a Typical July Week</h4>
 											<ul class="indent">
 												<li>Cucumbers</li>
@@ -61,10 +61,9 @@ require_once'header.php';
 												<li>Culinary Herbs</li>
 												<li>Flowers</li>
 											</ul>
-									<p>For more information about the farm or CSA availability, please send an e-mail or call and leave a message. We are also on facebook.</p>
+									<p>For more information about the farm or CSA availability, please send an e-mail or call and leave a message. We are also on Facebook.</p>
 								</div>
 										<div class="right-35 right-row-2 ">
-											<h3 class="center">Community Supported Agriculture</h3>
 												<p>
 													
 													<img src="photos/redmond-or-organic-farm-fresh-vegetables.jpg">

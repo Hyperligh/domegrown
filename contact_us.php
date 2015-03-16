@@ -49,7 +49,12 @@ require_once'header.php';
 
 			
 <?php require_once'footer.php' ?>
-					
+				<?php
+					if(isset($_POST['verify'])){
+						$name = $_POST['name'];
+					}
+
+				?>	
 
 	</div>
 </body>
