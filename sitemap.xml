@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://domegrown.org/</loc>
+</url>
+<url>
+  <loc>http://domegrown.org/events.php</loc>
+</url>
+<url>
+  <loc>http://domegrown.org/recipes.php</loc>
+</url>
+<url>
+  <loc>http://domegrown.org/directions.php</loc>
+</url>
+<url>
+  <loc>http://domegrown.org/photo_gallery.php</loc>
+</url>
+<url>
+  <loc>http://domegrown.org/about_csa.php</loc>
+</url>
+<url>
+  <loc>http://domegrown.org/about_the_farm.php</loc>
+</url>
+<url>
+  <loc>http://domegrown.org/csa_signup.php</loc>
+</url>
+<url>
+  <loc>http://domegrown.org/contact_us.php</loc>
+</url>
+<url>
+  <loc>http://domegrown.org/pdf/dome-grown-produce-csa-signup-brochure.pdf</loc>
+  <lastmod>2015-02-17T05:35:52+00:00</lastmod>
+</url>
+</urlset>

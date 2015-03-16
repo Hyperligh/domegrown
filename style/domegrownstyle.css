@@ -7,6 +7,7 @@
 #container {
 	max-width: 1194px;
 	min-width: 1194px;
+	
 	margin: 0 auto;
 	position: relative;
 	font-size: 105%;
@@ -17,32 +18,44 @@
 header {
 	position: relative;
 }
-header #top-head{
-	background-color: rgba(62,42,8,0.3);
-	text-shadow:2px 2px 1px rgba(0,0,0,0.4);
+#top-head{
+	background-color: rgba(58,36,64,0.5);
+	max-height: 145px;
 	
+}
+.logo {
+	position: relative;
+	z-index: 145;
+	left:20px;
+	bottom:15px;
 }
 
 #tagline {
-	
 	position: absolute;
-	top:40px;
+	top:30px;
 	left:375px;
-	font-size: 98%;
+	font-size: 85%;
 	font-style: italic;
 	
 }
 #tagline span {
 	position: relative;
-	left: 25px;
-
+	left: 55px;
 }
-#tagline + h4 {
+
+.business-info {
 	float:right;
 	position: relative;
-	top:130px;
-	right:25px;
+	top:30px;
+	right:20px;
 }
+.fb-left {
+	left:35px;
+}
+.fb-bottom {
+	bottom:12.5px;
+}
+
 
 .hero {
   position: relative;
@@ -77,8 +90,10 @@ header #top-head{
 }
 
 header nav ul li {
-	float: left;
-	width:14.2857142857%;
+	float: right;
+	width:12.8%;
+	border-left: 1px solid rgba(0,0,0,0.5);
+	
 
 }
 header nav ul {
@@ -88,7 +103,7 @@ header nav ul {
 	min-height: 45px;
 	line-height: 45px;
 	text-align: center;
-	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.4);
 	
 }
 header nav ul li a {
@@ -100,38 +115,34 @@ header nav {
 	width: 100%;
 	position: absolute;
 	z-index: 100;
-	top:154px;
-	display: none;
-
+	top:145px;
+	
 }
 #cta {
-	float:right;
-	position: relative;
-	bottom:75px;
-	right:25px;
-	font-size: 175%;
+	position: absolute;
+	top:480px;
+	right:20px;
 	z-index: 100;
-
+	font-size: 175%;
 }
 #cta ul li{
 	list-style-type: none;
 	width:175px;
 	height: 65px;
-	background-color:rgba(255,222,0,0.75);
-	float:right;
+	background-color:rgba(255,222,0,0.78);
+	float:left;
 	line-height: 65px;
 	text-align: center;
 	box-shadow: 2px 2px 2px black;
-	margin:0px 30px 0px 30px;
-	
+	margin:0px 0px 0px 25px;
 }
 #cta ul li a {
 	text-decoration: none;
 	display:block;
 	height: 65px;
-	color:black;
+	color:#461F71;
 }
-.cta-extension {
+/*.cta-extension {
 	height:65px;
 	width: 30px;
 	position: relative;
@@ -143,42 +154,44 @@ header nav {
 	background-repeat: no-repeat;
 	background-size: 65px 65px;
 	background-position: center;
-}
+	display: none;
+}*/
 
 .row1-content {
 	background-color: #8FB299;
 	width: 100%;
-
-	
+	padding: 0 0 25px 0;
 }
+
 .row2-content {
 	background-color: #667F6E;
 	width:100%;
 	position: relative;
-	bottom:40px;
-	padding-bottom: 30px;
-	
+	padding: 0 0 25px 0;
+
 }
-.row1-content > .left-65, .row1-content > .right-row-1 {
-	bottom:100px;
-	position: relative;
+.row1-content img, .row2-content img {
+	border:6px solid rgba(0,0,0,0.2);
+	box-shadow: 1.5px 1.5px 3px rgba(0,0,0,0.4);
 }
+
 .left-65 {
 	width:61%;
 	float:left;
 	position: relative;
-	padding: 20px 20px 0px 20px;
+	padding: 15px 20px 0px 20px;
 
 }
 .left-65 h1, .left-65 h2, .left-65 h3, .left-65 h4, .right-35 h2, .right-35 h3, .right-35 h4{
-	display: inline-block;
-	padding:10px 0px 10px 0px;
+	padding: 0 0 10px 0;
+	
 }
 
 .right-35 {
 	width:30%;
 	float:right;
-	padding: 20px 20px 0px 20px;
+	padding: 15px 20px 0px 20px;
+	
 }
 .right-row-1, .center  {
 	text-align: center;
@@ -191,10 +204,6 @@ header nav {
 	text-align: center;
 }
 
-.left-row-1, .right-row-1{
-	position: relative;
-	top:-70px;
-}
 .anchor {
 	text-decoration: none;
 	color:#FFDE00;
@@ -203,19 +212,10 @@ header nav {
 	color:#E5BF42;
 }
 
-
-
-
-
-
-
-
 footer {
 	background-color:#ffffff;
 	border-bottom: 1px solid rgba(0,0,0,0.8);
 	min-height:95px;
-	position: relative;
-	bottom: 17px;
 	padding: 0px 20px 0px 20px;
 
 }
@@ -238,11 +238,107 @@ footer {
 .cf:after {
     clear: both;
 }
+.problem {
+	background-color:rgba(255,222,0,0.78);
+	border:1px solid rgba(255,222,0,0.9);
+}
+.problem-checkboxes {
+	box-shadow: 1px 0px 1px rgba(255,222,0,0.78)
+}
 
 
+/*specific to interior pages*/
+.customer-information{
+	position: relative;
+	width:49%;
+	float:left;
+	clear: left;
+}
+.customer-information input[type=text], .customer-information input[type=email],.customer-information input[type=tel]{
+	height:30px;
+	width:220px;
+	border-radius: 6px;
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+.share-options input[type=submit], .submit{
+	position: relative;
+	width:125px;
+	height:25px;
+	border-radius: 2px;
+	box-shadow: 2px 2px 3px black;
+	left:180px;
+	bottom:15px;
+}
+.customer-information label {
+	display: inline-block;
+	width:100px;
+	font-size: 130%;
+	position: relative;
+	top:4px;
+
+}
+.customer-information p {
+	padding: 10px;
+	
+
+}
+.share-options ul li{
+	padding:10px 50px 10px 10px;
+	list-style-type: none;
+}
+.share-options {
+	float:right;
+	width:49%;
+	position: relative;
+	left:40px;
+}
+.share-options input[type="radio"]{
+	float:right;
+	position: relative;
+	bottom:57.5px;
+	height:19px;
+	width:19px;
+	
+	box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.3);
+}
+#csa_share {
+	background-color: red;
+}
+.last-child {
+	top:-93px;
+}
+.share-options p {
+	width:80%;
+}
+ 
+.indent {
+	position: relative;
+	left: 20px;
+	font-size: 90%;
+	padding:0 0 10px 0;
+}
+.required {
+	font-size: 120%;
+	color: #B20B08;
+	position: relative;
+	left:5px;
+	bottom: 5px;
+}
+h3 .required {
+	font-size: 97%;
+}
+#verify-div p{
+	position: relative;
+	bottom:30px;
+	left:125px;
+}
+#verify-last {
+	position: relative;
+	left:200px;
+}
 
 
-
+/*
 @media screen and (max-width: 768px){
 	#container{
 		width:100%;
@@ -260,11 +356,14 @@ footer {
 		width:100%;
 	}
 	.right-row-1 {
-		float:left;
-		clear:left;
+		
+	}
+	.logo {
+		width:30%;
+		height:30%;
 	}
 
 
 }
-
+*/
 
