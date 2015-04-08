@@ -8,7 +8,7 @@ require_once'header.php';
 			
 					<div class="hero" id="hero">
 
-						<img src="photos/stormy-night-in-redmond-local-farms.jpg" alt="Local produce for CSA shares in Redmond, OR">
+						<img src="photos/flowering-vegetables-farm-redmond.jpg" alt="Local produce for CSA shares in Redmond, OR">
 						
 					</div>
 				
@@ -40,7 +40,7 @@ require_once'header.php';
 							<div class="left-65">
 								
 									
-									<form  class="form" id="form" action="csa_signup.php" method="GET">
+									<form  class="form" id="form" action="csa_signup.php" method="POST">
 										<div class="customer-information">
 											<p><label for="name">Name:&nbsp;</label><input type="text" name="name" id="name"><span class="required">*</span></p>
 											<p><label for="address">Address:&nbsp;</label><input type="text" name="address" id="address"><span class="required">*</span></p>
@@ -101,7 +101,7 @@ require_once'header.php';
 
 			$('.form').submit(function(){
 			if(validateName() && validateAddress() && validateCity() && validateState() && validateEmail() && validateCheckBox()) {
-				$('#verfiy-window').html("<form method='GET' action='csa_confirmation.php'><div id='verify-div'><h4>Name:</h4>"+ "<p>" + 
+				$('#verfiy-window').html("<form method='POST' action='csa_confirmation.php'><div id='verify-div'><h4>Name:</h4>"+ "<p>" + 
 					$('#name').val() + "</p>" + "<h4>Address:</h4>"+ "<p>" + $('#address').val() + "</p>" +
 					"<h4>City:</h4>"+ "<p>" + $('#city').val() + "</p>" + "<h4>State:</h4>"+ "<p>" + $('#state').val() + "</p>" + 
 					"<h4>Zip:</h4>"+ "<p>" + $('#zip').val() + "</p>" + "<h4>Phone:</h4>"+ "<p>" + $('#phone').val() + "</p>" + 
@@ -115,7 +115,7 @@ require_once'header.php';
 					"<input type='hidden' name='zip' value='" + $('#zip').val() + "'>" +
 					"<input type='hidden' name='phone' value='" + $('#phone').val() + "'>" +
 					"<input type='hidden' name='email' value='" + $('#email').val() + "'>" +
-					"<input type='hidden' name='csa-share' value='" + $('input[name=csa-share]:checked').val() + "'>" +
+					"<input type='hidden' name='csaShare' value='" + $('input[name=csa-share]:checked').val() + "'>" +
 
 
 					"</form></div>"

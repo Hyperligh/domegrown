@@ -7,7 +7,7 @@ require_once'header.php';
 			
 					<div class="hero" id="hero">
 
-						<img src="photos/stormy-night-in-redmond-local-farms.jpg" alt="Local produce for CSA shares in Redmond, OR">
+						<img src="photos/redmond-or-farm-veggies.jpg" alt="Local produce for CSA shares in Redmond, OR">
 						
 					</div>
 				
@@ -18,25 +18,34 @@ require_once'header.php';
 				
 					<div class="row1-content cf">
 						<div class="left-65 left-row-1">
-								<h1><span>About our CSA shares</span></h1>
+								<h1><span>About Our CSA Shares</span></h1>
 								
 
-							<p>CSA, Community Supported Agriculture, is a growing social and agricultural movement that encourages small farm preservation and profitability by directly linking local growers with local community members.</p><br />
-							<h4>When you join a CSA you get some pretty terrific benefits. <em>You get...</em></h4>
-							<ul class="indent">
-								<li>To know your farmers personally.</li>
-								<li>To know exactly where your food comes from (even see it growing!).</li>
-								<li>To eat healthful, often organically grown, seasonal fruits and vegetables.</li>
-								<li>To support a local farm, preserving our essential rural environment.</li>
-								<li>To keep your hard earned money working in your community.</li>
-							</ul><br />
+							<h3>What is a CSA and Why you should join one…</h3>
+								<p>CSA stands for Community Supported Agriculture. It is a growing social and agricultural movement that encourages small farm preservation and profitability by directly linking local growers with local community members.
+								Here are the basics: a farmer offers a certain number of "shares" to the public. Typically the share consists of a box of vegetables, but other farm products may be included. Interested consumers purchase a share (aka a "membership" or a "subscription") and in return receive a box (bag, basket) of seasonal produce each week throughout the farming season. There is also the notion of shared risk: in most CSAs, members pay up front for the whole season and the farmers do their best to provide an abundant box of produce each week. If things are slim, members are not typically reimbursed. The result is a feeling of "we're in this together".</p><br />
+								<p>This arrangement creates several rewards for both the farmer and the consumer. In brief:</p><br />
+								<h4>Advantages for farmers:</h4>
+								<ul class="indent">
+								<li>Get to spend time marketing the food early in the year, before their 12 hour days in the field begin.</li>
+								<li>Receive payment early in the season, which helps with the farm's cash flow to purchase seeds and water.</li>
+								<li>Have an opportunity to get to know the people who eat the food they grow and support the community by providing safe food.</li>
+								</ul>
+								<h4>Advantages for consumers:</h4>
+								<ul class="indent">
+								<li>Eat ultra-fresh food, with all the flavor and vitamin benefits you don’t get at the grocery store.</li>
+								<li>Get exposed to new vegetables and new ways of cooking.</li>
+								<li>Usually get to visit the farm at least once a season.</li>
+								<li>Find that kids typically favor food from "their" farm even veggies they've never been known to eat.</li>
+								<li>Develop a relationship with the farmer who grows their food and learn more about how food is grown.</li>
+								</ul>
 							<p>Our CSA farm supports biodynamic agriculture, economical, and environmentally sustainable methods.</p>
 							
 
 					
 						</div>
 								<div class="right-35 right-row-1 center ">
-									<img src="photos/dome-grown-produce-local-farm-redmond-or.jpg">
+									<img src="photos/tomatoes-redmond-farm.jpg">
 									
 									
 								</div>
@@ -61,7 +70,7 @@ require_once'header.php';
 												<li>Culinary Herbs</li>
 												<li>Flowers</li>
 											</ul>
-									<p>For more information about the farm or CSA availability, please send an e-mail or call and leave a message. We are also on Facebook.</p>
+									<p>For more information about the farm or CSA availability, please send an e-mail or call and leave a message.</p>
 								</div>
 										<div class="right-35 right-row-2 ">
 												<p>

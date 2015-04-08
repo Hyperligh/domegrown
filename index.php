@@ -23,9 +23,12 @@ require_once'header.php';
 						<div class="left-65 left-row-1">
 								<h1><span>Welcome to Dome Grown Produce</span></h1>
 								
-
-							<p>After living in Colorado for six years, then moving to Oregon almost 10 years ago, and a few odd jobs later, I have finally landed at my farm. My excitement for growing and eating fresh vegetables was renewed after moving to an area that has a more temperate climate than the mountains of Colorado.Since moving here I have been growing flowers, vegetables, and herbs organically.The first garden was a mere 4’x8’ raised bed and now I get to talk in acres. I learned a lot about the area by working at a garden center for six years.
+							<p>
+							In 2010, my husband and I purchased our first greenhouse and this was when Dome Grown Produce was born.  It’s a 26’ geodesic dome kit that utilizes passive solar technology and unique undersoil heating tubes in raised beds. This helps us grow vegetables year round.   We disassembled and moved the dome to our new 20 acre farm in the summer of 2013, where we continue growing today.  Moving in the summer, pregnant with our son Emmett, and expanding a tiny business all at the same was a little hectic. We built another hoop-house, a big chicken run, and planted an orchard. This spring we are starting our first official CSA. We continue to clean up the property which had been neglected and overgrazed.  We will continue to fight the weeds that pop up everywhere.  We will continue to be stewards of our property the way I learned back in school.  We will also continue to produce good organic food and protect the land that we grow it on.
+							After all this time I have finally made it back to my roots.
 							</p>
+
+							
 							<p><h4>Under construction - Check back soon to see the full website.</h4></p>
 
 					
@@ -42,12 +45,9 @@ require_once'header.php';
 							<div class="row2-content cf">
 
 								<div class="left-65">
-										<h2>Our Beautiful Farm in Redmond, OR</h2>
+									<img src="photos/vintage-dome-grown-redmond-farm.jpg">
 
-									<p>
-								     In 2010, my husband and I purchased our first greenhouse and this was when Dome Grown Produce was born.  It’s a 26’ geodesic dome kit that utilizes passive solar technology and unique undersoil heating tubes in raised beds. This helps us grow vegetables year round.   We disassembled and moved the dome to our new 20 acre farm in the summer of 2013, where we continue growing today.  Moving in the summer, pregnant with our son Emmett, and expanding a tiny business all at the same was a little hectic. We built another hoop-house, a big chicken run, and planted an orchard. This spring we are starting our first official CSA. We continue to clean up the property which had been neglected and overgrazed.  We will continue to fight the weeds that pop up everywhere.  We will continue to be stewards of our property the way I learned back in school.  We will also continue to produce good organic food and protect the land that we grow it on.
-									 After all this time I have finally made it back to my roots.
-									</p>
+									
 								</div>
 										<div class="right-35 right-row-2 ">
 											<h3 class="center">Community Supported Agriculture</h3>
@@ -67,5 +67,15 @@ require_once'header.php';
 					
 
 	</div>
+								<script>
+									$(function () {
+								      $(".hero").responsiveSlides({
+								        maxwidth: 1194,
+								        speed: 1500,
+								        timeout: 6800
+								      });
+
+								    });
+								    </script>
 </body>
 </html>

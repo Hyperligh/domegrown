@@ -15,7 +15,7 @@
 
 <body>
 	<div id="container">
-		<header >
+		<header>
 
 			<div id="top-head">
 				<a href="/"><img class="logo cf" src="photos/dome-grown-produce-local-csa-farm-redmond-or.png" alt="Dome Grown Produce has year round vegetables in Bend, OR"></a>
@@ -33,13 +33,18 @@
 						</div>
 				
 			</div>
-					<nav id="main-nav">
-						<ul>
+					<nav>
+						<ul id="main-nav">
 							<li><a href="events.php">Events</a></li>
 							<li><a href="recipes.php">Recipes</a></li>
 							<li><a href="directions.php">Directions</a></li>
 							<li><a href="photo_gallery.php">Photo Gallery</a></li>
-							<li><a href="about_csa.php">About CSA</a></li>
+							<li><a href="about_csa.php">About CSA</a>
+								<ul id="subnav">
+								<li><a href="csa_faq.php">CSA Faq</a></li>
+								</ul></li>
 							<li><a href="about_the_farm.php">About Us</a></li>
+							
+
 						</ul>
 					</nav>

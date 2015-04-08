@@ -1,15 +1,15 @@
 <?php
 ob_start();
 require_once'Rconnect.php';
-$title = "Thank you for submitting your CSA form to Dome Grown Produce";
-$metad = "Redmond, Oregon organic farm thanks you for submitting your CSA signup form | Dome Grown Produce";
+$title = "Thank you for contacting Dome Grown Produce";
+$metad = "Redmond, Oregon organic farm thanks you for contacting Dome Grown Produce";
 require_once'header.php';
 ?>
 				
 			
 					<div class="hero" id="hero">
 
-						<img src="photos/flowering-vegetables-farm-redmond.jpg" alt="Local produce for CSA shares in Redmond, OR">
+						<img src="photos/weekly-csa-vegetables-redmond-farm.jpg" alt="Local produce for CSA shares in Redmond, OR">
 						
 					</div>
 				
@@ -23,7 +23,7 @@ require_once'header.php';
 							<?php
 								if(isset($_POST['verify'])) {
 									echo"<h1><span>Thank You For Submitting</span></h1>
-										<p>Thank you for singing up for our CSA packages. We will be contacting you shortly about payment. We will redirect
+										<p>Thank you for contacting Dome Grown Produce. We will be contacting you shortly. We will redirect
 										you to the homepage.</p>";
 									$name = mysqli_real_escape_string($dbh, trim($_POST['name']));
 									$address = mysqli_real_escape_string($dbh, trim($_POST['address']));
@@ -32,16 +32,15 @@ require_once'header.php';
 									$zip = mysqli_real_escape_string($dbh, trim($_POST['zip']));
 									$phone = mysqli_real_escape_string($dbh, trim($_POST['phone']));
 									$email = mysqli_real_escape_string($dbh, trim($_POST['email']));
-									$csaShare = mysqli_real_escape_string($dbh, trim($_POST['csaShare']));
-									$msg = "Thank you for signing up for our CSA share program. \r\n Name: ".$name."\r\n Address: ".$address."\r\n City: ".$city."\r\n State: ".$state."\r\n Zip: ".$zip."\r\n Phone: ".$phone."\r\n Email: ".$email."\r\n CSA Share: ".$csaShare;
+									$msg = "Thank you for contacting Dome Grown Produce. \r\n Name: ".$name."\r\n Address: ".$address."\r\n City: ".$city."\r\n State: ".$state."\r\n Zip: ".$zip."\r\n Phone: ".$phone."\r\n Email: ".$email;
 									$msg = wordwrap($msg, 70);
 									$headers = "FROM: DomeGrownProduce";
 
-										$sql = "INSERT INTO csa(name, address, city, state, zip, phone, email, csaShare) VALUES ('$name', '$address', '$city', '$state', '$zip', '$phone', '$email', '$csaShare')";
-										$result = mysqli_query($dbh, $sql) or die ("Already submitted once");
-										mail("amanda@domegrown.org", "CSA Signup Confirmation", $msg, $headers);
-										mail($email, "CSA Signup Confirmation", $msg, $headers);
 
+										$sql = "INSERT INTO contact(name, address, city, state, zip, phone, email) VALUES ('$name', '$address', '$city', '$state', '$zip', '$phone', '$email')";
+										$result = mysqli_query($dbh, $sql) or die ("Already submitted once");
+										mail("amanda@domegrown.org", "Thank you for contacting Dome Grown Produce", $msg, $headers);
+										mail($email, "CSA Signup Confirmation", $msg, $headers);
 										header('Refresh: 4;url=index.php');
 										
 
