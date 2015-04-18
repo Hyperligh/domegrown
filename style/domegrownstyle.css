@@ -21,7 +21,7 @@ header {
 	position: relative;
 }
 #top-head{
-	background: rgba(58,36,64,0.1) url("../photos/redmond-farm-csa-flowers.jpg") no-repeat 0 -10px;
+	background: rgba(58,36,64,0.1) url("../photos/top-header.png");
 	max-height: 145px;
 }
 .logo {
