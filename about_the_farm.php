@@ -7,7 +7,7 @@ require_once'header.php';
 			
 					<div class="hero" id="hero">
 
-						<img src="photos/stormy-night-in-redmond-local-farms.jpg" alt="Local produce for CSA shares in Redmond, OR">
+						<img src="photos/winter-dome-grown-farm-redmond-oregon.jpg" alt="Local produce for CSA shares in Redmond, OR">
 						
 					</div>
 				
@@ -45,6 +45,10 @@ require_once'header.php';
 
 								          My path in life didn’t lead me straight to the farm.  I chose to take the long way around...  In high school, I had a great science teacher who kept me interested in botany, horticulture, and ecology.  Then in college I moved on to earn a Natural Resource Conservation Degree.  There I learned about soil science, botany, hydrology, ornithology, and the value of healthy ecosystems. I realized that nature really does best when it’s not polluted with chemical pesticides, fertilizers, and feed lot runoff.  I learned that there needs to be a balance in production and protection.
 									</p>
+									<p>&nbsp;</p>
+									<h3>Our Beautiful Farm in Redmond, OR</h3>
+									<p>After living in Colorado for six years, then moving to Oregon almost 10 years ago, and a few odd jobs later, I have finally landed at my farm. My excitement for growing and eating fresh vegetables was renewed after moving to an area that has a more temperate climate than the mountains of Colorado.Since moving here I have been growing flowers, vegetables, and herbs organically.The first garden was a mere 4’x8’ raised bed and now I get to talk in acres. I learned a lot about the area by working at a garden center for six years.
+							</p>
 								</div>
 										<div class="right-35 right-row-2 ">
 											<h3 class="center">Community Supported Agriculture</h3>
