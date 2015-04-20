@@ -45,7 +45,7 @@ require_once'header.php';
 											<p><label for="phone">Phone:&nbsp;</label><input type="tel" name="phone" id="phone"></p>
 											<p><label for="email">Email:&nbsp;</label><input type="email" name="email" id="email"><span class="required">*</span></p>
 											<p><span class="required">*</span>&nbsp; Required field</p>
-											<p><input class="submit" type="submit" name="submit" value="Add to Cart"></p>
+											<p><input class="submit" type="submit" name="submit" value="Submit"></p>
 										</div>
 									
 			

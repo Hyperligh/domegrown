@@ -29,7 +29,7 @@ require_once'header.php';
 							</p>
 
 							
-							<p><h4>Under construction - Check back soon to see the full website.</h4></p>
+							
 
 					
 						</div>
@@ -54,7 +54,8 @@ require_once'header.php';
 												<p>
 													Sign up here for CSA packages by downloading the brochure. Just print and mail today.
 													<p><a class="anchor" href="pdf/dome-grown-produce-csa-signup-brochure.pdf" target="_blank">Download Brochure Here.</a></p>
-
+													<p>Pick up at Central Oregon Locavore on Thursdays from 3-6pm at</p><br />
+													<p>1216 NE 1st St, Bend, OR 97701</p>
 												</p>
 										</div>
 

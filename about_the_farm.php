@@ -54,8 +54,9 @@ require_once'header.php';
 											<h3 class="center">Community Supported Agriculture</h3>
 												<p>
 													Sign up here for CSA packages by downloading the brochure. Just print and mail today.
-													<p><a class="anchor" href="pdf/dome-grown-produce-csa-signup-brochure.pdf" target="_blank">Download Brochure Here.</a></p>
-
+													<p><a class="anchor" href="pdf/dome-grown-produce-csa-signup-brochure.pdf" target="_blank">Download Brochure Here.</a></p></p><br />
+													<p>Pick up at Central Oregon Locavore on Thursdays from 3-6pm at</p><br />
+													<p>1216 NE 1st St, Bend, OR 97701</p>
 												</p>
 										</div>
 					</div>

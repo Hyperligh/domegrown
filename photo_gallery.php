@@ -30,7 +30,7 @@ require_once'header.php';
 							<img src="photos/gallery/dome-grown-produce-redmond-farm.jpg" alt="Local produce for CSA shares in Redmond, OR">
 							<img src="photos/gallery/farm-redmond-seedlings.jpg" alt="Local produce for CSA shares in Redmond, OR">
 							<img src="photos/gallery/frog-redmond-farm.jpg" alt="Local produce for CSA shares in Redmond, OR">
-							
+				
 							<img src="photos/gallery/redmond-farm-seedlings.jpg" alt="Local produce for CSA shares in Redmond, OR">
 							<img src="photos/gallery/seedlings-farm-redmond.jpg" alt="Local produce for CSA shares in Redmond, OR">
 							
@@ -48,6 +48,8 @@ require_once'header.php';
 								<p>
 									Sign up here for CSA packages by downloading the brochure. Just print and mail today.</p>
 								<p><a class="anchor" href="pdf/dome-grown-produce-csa-signup-brochure.pdf" target="_blank">Download Brochure Here.</a></p><br />
+								<p>Pick up at Central Oregon Locavore on Thursdays from 3-6pm at</p><br />
+													<p>1216 NE 1st St, Bend, OR 97701</p><br />
 							<h4>View our archived photos on Facebook</h4>
 							<h4>Coming Soon!</h4>
 								<p><a href="#" class="anchor">March 2015</a></p>
