@@ -3,7 +3,7 @@ $title = "Directions to Dome Grown Produce in Redmond, Oregon";
 $metad = "Redmond, OR local organic farm is easy to get to, just follow these directions";
 require_once'header.php';
 ?>
-				
+		
 			
 					<div class="hero" id="hero">
 
@@ -21,7 +21,9 @@ require_once'header.php';
 								<h1><span>Directions to Dome Grown Produce</span></h1>
 								
 
-							<p>Check back soon to get a map and directions to Dome Grown Produce.
+							<div id="gmap"></div>
+							<div id="controls"></div>
+							
 							</p>
 							
 
@@ -41,7 +43,19 @@ require_once'header.php';
 
 			
 <?php require_once'footer.php' ?>
-					
+<script src="js/maplace-0.1.3.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+<script type="text/javascript">
+		$(function() {
+    new Maplace({
+        locations: [{44.1}, {-121.3}],
+        controls_on_map: false
+    }).Load();
+});
+</script>
+
+				
 
 	</div>
 </body>
