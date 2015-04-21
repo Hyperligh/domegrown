@@ -7,8 +7,8 @@
 
 							</div>
 						<h3>Dome Grown Produce</h3>
-						<p>7858 SW 61st St.</p>
-						<p>Redmond, OR 97756</p>
+						<a href="/directions.php"><p>7858 SW 61st St.</p>
+						<p>Redmond, OR 97756</p></a>
 						<p>541-678-3064</p>
 							<a href="https://www.facebook.com/domegrown" target="_blank"><img class ="footer-social-icons" src="photos/svg-social-icons/facebook29.svg"></a>
 							<!--<a href="https://plus.google.com/u/0/111212075289834648742/posts" target="_blank"><img class="footer-social-icons" src="photos/svg-social-icons/google29.svg"></a>-->

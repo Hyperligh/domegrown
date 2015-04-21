@@ -58,7 +58,7 @@ require_once'header.php';
 
 
 								</div>
-										<div class="right-35 right-row-2 ">
+										<div class="right-35 right-row-2 center ">
 											<h3 class="center">Community Supported Agriculture</h3>
 												<p>
 													Sign up here for CSA packages by downloading the brochure. Just print and mail today.

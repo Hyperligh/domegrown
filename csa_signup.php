@@ -24,8 +24,9 @@ require_once'header.php';
 								Simply fill out this form online and pay through PayPal 
 								or <a class="anchor" href="pdf/dome-grown-produce-csa-signup-brochure.pdf">download the sign up form</a> and mail to the farm 
 								with your payment.</p><br />
-								<p>Shares can be made in 2 payments. Half by March 1st and the remainder by June 1st. Month Shares must be paid 
-								at the 1st of each month. Pick-up on Wednesday and Friday at the farm from 2-6pm.</p>
+								<p>Shares can be made in 2 payments. Half by the end of June. Month Shares must be paid 
+								at the 1st of each month. Pick-up on Wednesday and Friday at the farm from 2-6pm and at 
+								Central Oregon Locavore on Thursdays from 3-6pm at 1216 NE 1st St, Bend, OR 97701</p>
 								
 						</div>
 								<div class="right-35 ">
