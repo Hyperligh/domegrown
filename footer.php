@@ -2,7 +2,8 @@
 									<div class="bottom-border"></div>
 									<div id="footer-icons">
 							<a href="http://www.localharvest.org/dome-grown-produce-M61400" target="_blank"><img src="photos/local-harvest-logo-redmond-farm-dome-grown-produce.png"></a>
-							<a href="http://eatlocalgrown.com/farms/13854-dome-grown-produce.html" target="_blank"><img src="photos/eat-local-grown-logo-redmon-farm.png"></a><br />
+							<a href="http://eatlocalgrown.com/farms/13854-dome-grown-produce.html" target="_blank"><img src="photos/eat-local-grown-logo-redmon-farm.png"></a>
+							<a href="http://www.centraloregonlocavore.org/" target="_blank"><img src="photos/locavore-logo.png"></a>
 							<a href="http://www.agrilicious.org/Dome_Grown_Produce" target="_blank"><img src="photos/agrilicious-logo-redmond-farm-1.png"></a>
 
 							</div>

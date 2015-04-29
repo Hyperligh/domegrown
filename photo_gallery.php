@@ -48,7 +48,9 @@ require_once'header.php';
 								<p>
 									Sign up here for CSA packages by downloading the brochure. Just print and mail today.</p>
 								<p><a class="anchor" href="pdf/dome-grown-produce-csa-signup-brochure.pdf" target="_blank">Download Brochure Here.</a></p><br />
-								<p>Pick up at Central Oregon Locavore on Thursdays from 3-6pm at</p><br />
+								<p>Pick up on Wednesday and Friday at the farm from 2-6pm</p>
+								<p><em>or</em></p>
+								<p>Pick up at Central Oregon Locavore on Thursdays from 3-6pm at</p>
 													<p>1216 NE 1st St, Bend, OR 97701</p><br />
 							<h4>View our archived photos on Facebook</h4>
 							<h4>Coming Soon!</h4>
