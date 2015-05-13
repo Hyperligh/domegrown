@@ -50,12 +50,14 @@ require_once'header.php';
 									<p>After living in Colorado for six years, then moving to Oregon almost 10 years ago, and a few odd jobs later, I have finally landed at my farm. My excitement for growing and eating fresh vegetables was renewed after moving to an area that has a more temperate climate than the mountains of Colorado.Since moving here I have been growing flowers, vegetables, and herbs organically.The first garden was a mere 4’x8’ raised bed and now I get to talk in acres. I learned a lot about the area by working at a garden center for six years.
 							</p>
 								</div>
-										<div class="right-35 right-row-2 ">
+										<div class="right-35 right-row-2 center ">
 											<h3 class="center">Community Supported Agriculture</h3>
 												<p>
 													Sign up here for CSA packages by downloading the brochure. Just print and mail today.
 													<p><a class="anchor" href="pdf/dome-grown-produce-csa-signup-brochure.pdf" target="_blank">Download Brochure Here.</a></p></p><br />
-													<p>Pick up at Central Oregon Locavore on Thursdays from 3-6pm at</p><br />
+													<p>Pick up on Wednesday and Friday at the farm from 2-6pm</p>
+													<p><em>or</em></p>
+													<p>Pick up at Central Oregon Locavore on Thursdays from 3-6pm at</p>
 													<p>1216 NE 1st St, Bend, OR 97701</p>
 												</p>
 										</div>

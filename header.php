@@ -10,6 +10,9 @@
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/responsiveslides.min.js"></script>
+	<script src="js/maplace-0.1.3.min.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script src="js/jquery.ui.map.full.min.js"></script>
 
 </head>
 
@@ -26,8 +29,8 @@
 
 						<div class="business-info">
 						<h3>Dome Grown Produce</h3>
-						<p class="center">7858 SW 61st St.</p>
-						<p class="center">Redmond, OR 97756</p>
+						<a href="/directions.php"><p class="center">7858 SW 61st St.</p>
+						<p class="center">Redmond, OR 97756</p></a>
 						<p class="center">541-678-3064</p>
 						<div class="fb-like fb-left" data-href="https://www.facebook.com/DomeGrown" data-width="200" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
 						</div>

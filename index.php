@@ -35,7 +35,7 @@ require_once'header.php';
 						</div>
 								<div class="right-35 right-row-1 center ">
 
-									<img src="photos/sprouting-vegetables-local-csa-farm-redmond-or.jpg">
+									<img src="photos/redmond-or-farm-dome-grown-produce.jpg">
 									
 								</div>
 
@@ -49,12 +49,14 @@ require_once'header.php';
 
 									
 								</div>
-										<div class="right-35 right-row-2 ">
+										<div class="right-35 right-row-2 center">
 											<h3 class="center">Community Supported Agriculture</h3>
 												<p>
 													Sign up here for CSA packages by downloading the brochure. Just print and mail today.
-													<p><a class="anchor" href="pdf/dome-grown-produce-csa-signup-brochure.pdf" target="_blank">Download Brochure Here.</a></p>
-													<p>Pick up at Central Oregon Locavore on Thursdays from 3-6pm at</p><br />
+													<p><a class="anchor" href="pdf/dome-grown-produce-csa-signup-brochure.pdf" target="_blank">Download Brochure Here.</a></p><br />
+													<p>Pick up on Wednesday and Friday at the farm from 2-6pm</p>
+													<p><em>or</em></p>
+													<p>Pick up at Central Oregon Locavore on Thursdays from 3-6pm at</p>
 													<p>1216 NE 1st St, Bend, OR 97701</p>
 												</p>
 										</div>

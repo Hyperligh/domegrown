@@ -253,7 +253,7 @@ header nav li:hover > ul > li {
 	padding: 15px 20px 0px 20px;
 	
 }
-.right-row-1, .center, .right-row-2  {
+.center {
 	text-align: center;
 }
 .right-row-1 .social-icons {
@@ -290,6 +290,10 @@ footer {
 }
 #footer-icons img {
 	padding: 15px 15px 0 15px;
+}
+footer a, .business-info a {
+	text-decoration: none;
+	color:black;
 }
 
 
@@ -408,6 +412,11 @@ h3 .required {
 #error, #verify-window{
 	margin:5px 0 0 0;
 }
+
+#map_canvas {
+	height:300px;
+}
+
 
 
 
