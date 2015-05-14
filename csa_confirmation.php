@@ -1,6 +1,6 @@
 <?php
 ob_start();
-require_once'Rconnect.php';
+require_once'connect.php';
 $title = "Thank you for submitting your CSA form to Dome Grown Produce";
 $metad = "Redmond, Oregon organic farm thanks you for submitting your CSA signup form | Dome Grown Produce";
 require_once'header.php';

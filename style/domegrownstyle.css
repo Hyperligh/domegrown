@@ -365,7 +365,7 @@ footer a, .business-info a {
 	position: relative;
 	left:40px;
 }
-.share-options input[type="radio"]{
+.share-options input[type="radio"], fieldset input[type="checkbox"]{
 	float:right;
 	position: relative;
 	bottom:57.5px;

@@ -70,6 +70,9 @@ require_once'header.php';
 															<li><h4>Month to Month Share - $125</h4>
 																<p class="indent">good option for someone who travels or doesn't need the whole season</p>
 																<input type="radio" name="csa-share" class="last-child csa-share" id="csa-share3" value="Month to Month Share - $125"></li>
+															<li><h4>Dozen Eggs - $80</h4>
+																<p class="indent">One dozen eggs for 20 weeks</p>
+																<input type="checkbox" name="eggs" id="eggs" value="$80" class="csa-share"></li>
 																</fieldset>
 														</ul>
 													<p><input type="submit" name="submit" value="Add to Cart"></p>
@@ -107,6 +110,7 @@ require_once'header.php';
 					"<h4>City:</h4>"+ "<p>" + $('#city').val() + "</p>" + "<h4>State:</h4>"+ "<p>" + $('#state').val() + "</p>" + 
 					"<h4>Zip:</h4>"+ "<p>" + $('#zip').val() + "</p>" + "<h4>Phone:</h4>"+ "<p>" + $('#phone').val() + "</p>" + 
 					"<h4>Email:</h4>" + "<p>" + $('#email').val() + "</p>" + "<h4>CSA Packages:</h4>" + "<p id='verify-last'>" + $('input[name=csa-share]:checked').val() +
+					"<h4>Eggs:</h4>" + "<p>" + $('#eggs').val() +
 
 					"</p><input type='submit' name='verify' id='verify' class='submit' value='Verify and Submit'>" + 
 					"<input type='hidden' name='name' value='" + $('#name').val() + "'>" +
@@ -116,6 +120,7 @@ require_once'header.php';
 					"<input type='hidden' name='zip' value='" + $('#zip').val() + "'>" +
 					"<input type='hidden' name='phone' value='" + $('#phone').val() + "'>" +
 					"<input type='hidden' name='email' value='" + $('#email').val() + "'>" +
+					"<input type='hidden' name='email' value='" + $('#eggs').val() + "'>" +
 					"<input type='hidden' name='csaShare' value='" + $('input[name=csa-share]:checked').val() + "'>" +
 
 
