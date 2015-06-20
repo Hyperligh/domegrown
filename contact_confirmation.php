@@ -34,12 +34,12 @@ require_once'header.php';
 									$email = mysqli_real_escape_string($dbh, trim($_POST['email']));
 									$msg = "Thank you for contacting Dome Grown Produce. \r\n Name: ".$name."\r\n Address: ".$address."\r\n City: ".$city."\r\n State: ".$state."\r\n Zip: ".$zip."\r\n Phone: ".$phone."\r\n Email: ".$email;
 									$msg = wordwrap($msg, 70);
-									$headers = "FROM: DomeGrownProduce";
+									$headers = "FROM: DomeGrownProduce@domegrown.org";
 
 
 										$sql = "INSERT INTO contact(name, address, city, state, zip, phone, email) VALUES ('$name', '$address', '$city', '$state', '$zip', '$phone', '$email')";
 										$result = mysqli_query($dbh, $sql) or die ("Already submitted once");
-										mail("amanda@domegrown.org", "Thank you for contacting Dome Grown Produce", $msg, $headers);
+										mail("hyperligh@gmail.com", "Thank you for contacting Dome Grown Produce", $msg, $headers);
 										mail($email, "CSA Signup Confirmation", $msg, $headers);
 										header('Refresh: 4;url=index.php');
 										

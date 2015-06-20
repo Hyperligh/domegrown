@@ -1,6 +1,6 @@
 <?php
 ob_start();
-require_once'connect.php';
+require_once'Rconnect.php';
 $title = "Thank you for submitting your CSA form to Dome Grown Produce";
 $metad = "Redmond, Oregon organic farm thanks you for submitting your CSA signup form | Dome Grown Produce";
 require_once'header.php';
@@ -33,11 +33,15 @@ require_once'header.php';
 									$phone = mysqli_real_escape_string($dbh, trim($_POST['phone']));
 									$email = mysqli_real_escape_string($dbh, trim($_POST['email']));
 									$csaShare = mysqli_real_escape_string($dbh, trim($_POST['csaShare']));
-									$msg = "Thank you for signing up for our CSA share program. \r\n Name: ".$name."\r\n Address: ".$address."\r\n City: ".$city."\r\n State: ".$state."\r\n Zip: ".$zip."\r\n Phone: ".$phone."\r\n Email: ".$email."\r\n CSA Share: ".$csaShare;
+									$eggs = mysqli_real_escape_string($dbh, trim($_POST['eggs']));
+									$total = mysqli_real_escape_string($dbh, trim($_POST['total']));
+
+									
+									$msg = "Thank you for signing up for our CSA share program. We will be contacting you \r\n Name: ".$name."\r\n Address: ".$address."\r\n City: ".$city."\r\n State: ".$state."\r\n Zip: ".$zip."\r\n Phone: ".$phone."\r\n Email: ".$email."\r\n CSA Share: ".$csaShare."\r\n Eggs: ".$eggs."\r\n Total: ".$total;
 									$msg = wordwrap($msg, 70);
 									$headers = "FROM: DomeGrownProduce";
 
-										$sql = "INSERT INTO csa(name, address, city, state, zip, phone, email, csaShare) VALUES ('$name', '$address', '$city', '$state', '$zip', '$phone', '$email', '$csaShare')";
+										$sql = "INSERT INTO csa(name, address, city, state, zip, phone, email, csaShare, eggs, total) VALUES ('$name', '$address', '$city', '$state', '$zip', '$phone', '$email', '$csaShare', '$eggs', '$total')";
 										$result = mysqli_query($dbh, $sql) or die ("Already submitted once");
 										mail("amanda@domegrown.org", "CSA Signup Confirmation", $msg, $headers);
 										mail($email, "CSA Signup Confirmation", $msg, $headers);
