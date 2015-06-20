@@ -1,10 +1,10 @@
 	<footer class="cf">
 									<div class="bottom-border"></div>
 									<div id="footer-icons">
-							<a href="http://www.centraloregonlocavore.org/" target="_blank"><img src="http://placehold.it/200x75"></a>
-							<a href="http://www.hdffa.org/" target="_blank"><img src="http://placehold.it/200x75"></a>		
-							<a href="http://www.localharvest.org/dome-grown-produce-M61400" target="_blank"><img src="http://placehold.it/200x75"></a>
-							<a href="http://www.agrilicious.org/Dome_Grown_Produce" target="_blank"><img src="http://placehold.it/200x75"></a>
+							<a href="http://www.centraloregonlocavore.org/" target="_blank"><img id="footer-logo" src="photos/footer-logos/locavore-logo.png"></a>
+							<a href="http://www.hdffa.org/" target="_blank"><img id="footer-logo" src="photos/footer-logos/hdffa-logo.png"></a>		
+							<a href="http://www.localharvest.org/dome-grown-produce-M61400" target="_blank"><img id="footer-logo" src="photos/footer-logos/local-harvest-logo.png"></a>
+							<a href="http://www.agrilicious.org/Dome_Grown_Produce" target="_blank"><img id="footer-logo" src="photos/footer-logos/agrilicious-logo.png"></a>
 
 							</div>
 						<h3>Dome Grown Produce</h3>

@@ -7,7 +7,8 @@
 	<title><?php echo $title; ?></title>
 	<link rel="icon" href="photos/dome-grown-produce-local-csa-farm-redmond-or-favicon.png">
 	<link rel="stylesheet" href="style/domegrownstyle.css">
-	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link href='http://fonts.googleapis.com/css?family=Nunito:300light, 400normal, 700bold' rel='stylesheet' >
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300light, 300italic, 400normal, 400italic' rel='stylesheet' >
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/responsiveslides.min.js"></script>
 	<script src="js/maplace-0.1.3.min.js"></script>

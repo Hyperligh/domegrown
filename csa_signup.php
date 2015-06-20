@@ -70,9 +70,9 @@ require_once'header.php';
 															<li><h4>Month to Month Share - $125</h4>
 																<p class="indent">good option for someone who travels or doesn't need the whole season</p>
 																<input type="radio" name="csa-share" class="last-child csa-share" id="csa-share3" value="Month to Month Share - $125"></li>
-															<li><h4>Dozen Eggs - $80</h4>
-																<p class="indent">One dozen eggs for 20 weeks</p>
-																<input type="checkbox" name="eggs" id="eggs" value="$80" class="csa-share"></li>
+															<li><h4>Dozen Organic Eggs - $85</h4>
+																<p class="indent">One dozen organic eggs for 20 weeks</p>
+																<input type="checkbox" name="eggs" id="eggs" value="$85" class="csa-share"></li>
 																</fieldset>
 														</ul>
 													<p><input type="submit" name="submit" value="Add to Cart"></p>
@@ -105,12 +105,31 @@ require_once'header.php';
 
 			$('.form').submit(function(){
 			if(validateName() && validateAddress() && validateCity() && validateState() && validateEmail() && validateCheckBox()) {
+				var eggs = 0;
+				var csa_share = 0;
+				var total = 0;
+						if($('input[name=csa-share]:checked').val() == "Large Family Share - $600"){
+							csa_share = 600;
+						}
+						else if($('input[name=csa-share]:checked').val() == "Small Family Share - $350") {
+							csa_share = 350;
+						}
+						else {
+							csa_share = 125;
+						}
+					if($('input[name=eggs]').prop("checked")) {
+						eggs = 85;
+					}
+					else {
+						eggs = 0;
+					}
+					total = csa_share + eggs;
 				$('#verfiy-window').html("<form method='POST' action='csa_confirmation.php'><div id='verify-div'><h4>Name:</h4>"+ "<p>" + 
 					$('#name').val() + "</p>" + "<h4>Address:</h4>"+ "<p>" + $('#address').val() + "</p>" +
 					"<h4>City:</h4>"+ "<p>" + $('#city').val() + "</p>" + "<h4>State:</h4>"+ "<p>" + $('#state').val() + "</p>" + 
 					"<h4>Zip:</h4>"+ "<p>" + $('#zip').val() + "</p>" + "<h4>Phone:</h4>"+ "<p>" + $('#phone').val() + "</p>" + 
 					"<h4>Email:</h4>" + "<p>" + $('#email').val() + "</p>" + "<h4>CSA Packages:</h4>" + "<p id='verify-last'>" + $('input[name=csa-share]:checked').val() +
-					"<h4>Eggs:</h4>" + "<p>" + $('#eggs').val() +
+					"<h4>Organic Eggs:</h4>" + "<p>$" + eggs + "</p><h4>Total:</h4><p>$" + total + "</p>" +
 
 					"</p><input type='submit' name='verify' id='verify' class='submit' value='Verify and Submit'>" + 
 					"<input type='hidden' name='name' value='" + $('#name').val() + "'>" +
@@ -122,12 +141,14 @@ require_once'header.php';
 					"<input type='hidden' name='email' value='" + $('#email').val() + "'>" +
 					"<input type='hidden' name='email' value='" + $('#eggs').val() + "'>" +
 					"<input type='hidden' name='csaShare' value='" + $('input[name=csa-share]:checked').val() + "'>" +
-
+					"<input type='hidden' name='eggs' value='"+ eggs  + "'>" +
+					"<input type='hidden' name='total' value='"+ total  + "'>" +
 
 					"</form></div>"
 						
-
+					
 					);
+							
 				return false;
 			}
 			else {

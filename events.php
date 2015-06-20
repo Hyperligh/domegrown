@@ -31,20 +31,14 @@ require_once'header.php';
 								<h1><span>Dome Grown Produce Events</span></h1>
 								
 
-							<p><strong>Title: </strong>Dinner for Work</p>
-							<p><strong>Date: </strong>07/14/2015</p>
+							<p><strong>Title: </strong>CSA pickup</p>
+							<p><strong>Date: </strong>June 3rd</p>
 							<p><strong>Location: </strong>Dome Grown Produce</p>
-							<p><strong>Description: </strong>Come have a home cooked dinner in exchange for some work at the farm.
-							Putting together the green house, pulling weeds, help planting seeds, and anything else
-							that needs attending to.</p><br />
+							<p><strong>Description: </strong>The first CSA pickup will be at the farm, from 2-6pm</p><br />
 							<p><div class="bottom-border"></div></p><br />
 
 
-							<p><strong>Title: </strong>Help pick vegetables</p>
-							<p><strong>Date: </strong>08/01/2015</p>
-							<p><strong>Location: </strong>Dome Grown Produce</p>
-							<p><strong>Description: </strong>Come help pick some veggies and take a couple home</p><br />
-							<p><div class="bottom-border"></div></p><br />
+					
 
 							
 
