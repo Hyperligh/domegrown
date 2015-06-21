@@ -37,6 +37,12 @@ require_once'header.php';
 							<p><strong>Description: </strong>The first CSA pickup will be at the farm, from 2-6pm</p><br />
 							<p><div class="bottom-border"></div></p><br />
 
+							<p><strong>Title: </strong>Second annual weed party!</p>
+							<p><strong>Date: </strong>Wednesday June 24th through Thursday 25th 10am - 4pm</p>
+							<p><strong>Location: </strong>Dome Grown Produce</p>
+							<p><strong>Description: </strong>Come get your hands dirty, swim, learn, BBQ, bon fire, music, relax and have fun...And there will be some puling of the weeds. Bring a chair and something to share.</p><br />
+							<p><div class="bottom-border"></div></p><br />
+
 
 					
 

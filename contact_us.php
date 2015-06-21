@@ -52,7 +52,7 @@ require_once'header.php';
 
 									</form>
 						
-						</div>
+							</div>
 						
 										<div class="right-35 right-row-2 ">
 											

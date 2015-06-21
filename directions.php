@@ -66,7 +66,7 @@ require_once'header.php';
 	<script>
 $('#map_canvas').gmap().bind('init', function(ev, map) {
 	
-	$('#map_canvas').gmap('addMarker', {'position': '44.201,-121.234', 'bounds': true}).click(function() {
+	$('#map_canvas').gmap('addMarker', {'position': '44.203198,-121.243131', 'bounds': true}).click(function() {
 		$('#map_canvas').gmap('openInfoWindow', {'content': '7858 Sw 61st St. Redmond, OR 97756'}, this);
 
 

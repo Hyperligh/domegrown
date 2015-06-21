@@ -54,7 +54,7 @@ require_once'header.php';
 									<h4>How do I pay for the share?</h4> 
 									<p>Once you have decided which share is right for you, send the farm an email, download and print the brochure, or fill out the sign up form.  You will receive an email confirmation. Send checks to the farm by mail or pay in person with cash.  We are working on a paypal option for next year.  Shares can be paid in 2 payments with the first payment due by April 1st and final payment made at first pick-up.</p><br />
 									<h4>How will I receive my share?</h4>  
-									<p>There will be 2 pick-up days on the farm and one located at Central Oregon Locavore.  The farm pick-up is on Wednesday and Friday from 2pm-6pm.  I will update the Locavore pick-up as soon as its finalized.  The produce will be just harvested that morning and slightly rinsed.  I do recommend a thorough washing at home.  The produce will be in paper grocery bags and small items may be in a plastic bag.  Feel bring to bring your own basket or bag to transfer items or buy add on produce.  Some weeks there may be extra for purchase on pick up days.</p>
+									<p>There will be 2 pick-up days on the farm and one located at Central Oregon Locavore.  The farm pick-up is on Wednesday and Friday from 2pm-6pm.  I will update the Locavore pick-up as soon as its finalized.  The produce will be just harvested that morning and slightly rinsed.  I do recommend a thorough washing at home.  The produce will be in paper grocery bags and small items may be in a plastic bag.  Feel free to bring your own basket or bag to transfer items or buy add on produce.  Some weeks there may be extra for purchase on pick up days.</p>
 
 
 								</div>
