@@ -1,4 +1,5 @@
 <?php 
+require_once'connect.php';
 $title = "Beautiful organic farm in Redmond, OR | Dome Grown Produce";
 $metad = "Local organic farm has CSA packages available in Redmond, OR | Dome Grown Produce";
 require_once'header.php'; 
@@ -22,19 +23,14 @@ require_once'header.php';
 								
 						
 						<ul class="hero border-right" id="hero">
-							<img src="photos/gallery/beautiful-view-redmond-csa-farm.jpg" alt="Local produce for CSA shares in Redmond, OR">
-							<img src="photos/gallery/constructing-dome-redmond-farm.jpg" alt="Local produce for CSA shares in Redmond, OR">
-							<img src="photos/gallery/csa-farm-redmond-constructing-dome-greenhouse.jpg" alt="Local produce for CSA shares in Redmond, OR">
-							<img src="photos/gallery/redmond-farm-dome-green-house.jpg" alt="Local produce for CSA shares in Redmond, OR">
-							<img src="photos/gallery/sunsent-redmond-farm.jpg" alt="Local produce for CSA shares in Redmond, OR">
-							<img src="photos/gallery/dome-grown-produce-redmond-farm.jpg" alt="Local produce for CSA shares in Redmond, OR">
-							<img src="photos/gallery/farm-redmond-seedlings.jpg" alt="Local produce for CSA shares in Redmond, OR">
-							<img src="photos/gallery/frog-redmond-farm.jpg" alt="Local produce for CSA shares in Redmond, OR">
-				
-							<img src="photos/gallery/redmond-farm-seedlings.jpg" alt="Local produce for CSA shares in Redmond, OR">
-							<img src="photos/gallery/seedlings-farm-redmond.jpg" alt="Local produce for CSA shares in Redmond, OR">
-							
-							<img src="photos/gallery/vegetables-redmond-csa-farm.jpg" alt="Local produce for CSA shares in Redmond, OR">
+
+							<?php
+								require_once'populatephotos.php';
+								populatePhotos("photogallery", $dbh);
+
+							?>
+
+
 							
 							
 						</ul>

@@ -223,6 +223,12 @@ header nav li:hover > ul > li {
 	padding: 0 0 25px 0;
 	line-height: 23px;
 }
+.left-row-1 {
+	background-color: #8FB299;
+	width: 95%;
+	padding: 25px 15px 25px 15px;
+	line-height: 23px;
+}
 
 .row2-content {
 	background-color: #667F6E;
@@ -432,6 +438,16 @@ h3 .required {
 }
 
 
+#listThumbs{
+	width:50%;
+	height:25%;
+}
+table  {
+	border:2px solid black;
+
+}
+
+
 @media screen and (max-width: 1150px){
 	#footer-logo {
 		width:20%;
@@ -465,11 +481,6 @@ h3 .required {
 		margin-top: 15px;
 		padding: 0;
 		left:10;
-
-		
-
-		
-		
 	}
 	.right-35 {
 		float:left;
@@ -478,27 +489,12 @@ h3 .required {
 		margin:0;
 		padding:0;
 		padding-top: 15px;
-
-		
-		
 	}
 	.left-65 img {
 		width:50%;
 		height:50%;
 	}
-	.row1-content {
-		border:.5px solid red;
-		width: 100%;
 
-}
-
-	.row2-content {
-	
-		width:100%;
-
-
-
-}
 	#tagline {
 		left:30%;
 		font-size: 75%;
