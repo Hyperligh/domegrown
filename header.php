@@ -46,8 +46,13 @@
 							<li><a href="about_csa.php">About CSA</a>
 								<ul id="subnav">
 								<li><a href="csa_faq.php">CSA Faq</a></li>
+								
 								</ul></li>
-							<li><a href="about_the_farm.php">About Us</a></li>
+							<li><a href="about_the_farm.php">About Us</a>
+							<ul id="subnav">
+								
+								<li><a href="weekly_csa_share.php">Weekly CSA</a></li>
+								</ul></li>
 							
 
 						</ul>

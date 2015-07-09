@@ -6,7 +6,7 @@
 }
 #container {
 	max-width: 1194px;
-	
+	min-width: 1194px;
 	margin: 0 auto;
 	position: relative;
 	font-size: 109%;
@@ -34,8 +34,8 @@ header {
 
 #tagline {
 	position: absolute;
-	top:2.5%;
-	left:36%;
+	top:2.25%;
+	left:32%;
 	font-size: 85%;
 	font-style: italic;
 	
@@ -48,7 +48,7 @@ header {
 .business-info {
 	float:right;
 	position: relative;
-	top:30px;
+	top:12px;
 	right:20px;
 }
 .fb-left {
@@ -159,7 +159,7 @@ header nav li:hover > ul > li {
 	top:45px;
 	position: absolute;
 	font-size: 110%;
-	background-color: rgba(7,96,204,0.8);
+	background-color: rgba(143,178,153,0.8);
 	box-shadow: 0px 2px 2px rgba(0,0,0,0.4);
 
 	
@@ -204,20 +204,31 @@ header nav li:hover > ul > li {
 }
 #cta ul li{
 	list-style-type: none;
-	width:175px;
+	width:190px;
 	height: 65px;
 	background-color:rgba(255,222,0,0.78);
 	float:left;
 	line-height: 65px;
 	text-align: center;
 	box-shadow: 2px 2px 2px black;
-	margin:0px 0px 0px 25px;
+	margin:0px 10px 0px 25px;
 }
+
 #cta ul li a {
 	text-decoration: none;
-	display:block;
+	display:inline-block;
 	height: 65px;
+	width: 190px;
 	color:#461F71;
+}
+#cta ul li:hover {
+	background-color:#461F71;
+	
+	
+}
+#cta ul li:hover a {
+	color:rgba(255,222,0,1.0);
+	border:1px solid yellow;
 }
 /*.cta-extension {
 	height:65px;
@@ -456,8 +467,8 @@ h3 .required {
 
 
 #listThumbs{
-	width:50%;
-	height:25%;
+	width:200px;
+	height:175px;
 }
 table  {
 	width:90%;
@@ -470,7 +481,24 @@ table td {
 table td:first-child {
 	width:60%;
 }
+#weekly-csa {
+	margin-top: 30px;
+}
+#weekly-csa table td {
+	padding:10px;
+	border:1px solid rgba(0,0,0,.6);;
+	box-shadow: .8px .8px 3px rgba(0,0,0,.7);
+	border-radius: 3px;
 
+
+}
+#weekly-csa table td:first-child {
+	width:15%;
+	font-size: 115%;
+}
+#weekly-csa table th{
+	font-size: 125%;
+}
 .full {
 	position: relative;
 	width:97.5%;
@@ -479,7 +507,7 @@ table td:first-child {
 	display:none;
 }
 
-
+/*
 @media screen and (max-width: 1150px){
 	#footer-logo {
 		width:20%;
@@ -600,3 +628,4 @@ table td:first-child {
 }
 
 
+*/

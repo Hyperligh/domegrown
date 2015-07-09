@@ -6,6 +6,12 @@ $metad = "Local oragnic farm in Redmond, OR offers CSA | Dome Grown Produce";
 require_once'header.php';
 
 ?>
+<style type="text/css">
+	#container {
+		max-width: 1194px;
+		min-width: 1194px;
+	}
+</style>
 
 			
 					<div class="hero" id="hero">
@@ -23,8 +29,8 @@ require_once'header.php';
 						<div class="left-row-1 full">
 							<nav>
 								<ul id="config-nav">
-									<li><a name="nav" value="photo-upload" href="_config.php">Photo Upload</a></li>
-									<li><a name="">Weekly CSA</a></li>
+									<li><a name="nav" value="photo-upload" href="">Photo Upload</a></li>
+									<li><a href="" name="">Weekly CSA</a></li>
 									<li><a href="">Photo Gallery Photos</a></li>
 									<li><a href="">Home Slideshow Photos</a></li>
 									<li><a href="">Leads</a></li>
@@ -34,12 +40,12 @@ require_once'header.php';
 					<?php		
 					require_once'populatephotos.php';
 					if(isset($_POST['nav']) ) {
-						require_once'photo-upload.php';
+						
 					}
 					else {
 						
 
-							
+							require_once'photo-upload.php';
 							echo"<br /><br /><h1>Weekly CSA Vegetables</h1>";
 					
 						listphotos("photogallery", $dbh, "weekly-csa", "Veggie Description");
@@ -52,6 +58,7 @@ require_once'header.php';
 						listphotos("photogallery", $dbh, "home-slideshow", "Alt Text");
 
 						echo"<h1>Leads</h1>";
+							
 						}
 
 

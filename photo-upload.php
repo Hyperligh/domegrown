@@ -5,7 +5,7 @@
 
 									<p>Gallery deminsions: 1000px X 549px</p>
 									<p>Hero deminnsions: 1600px X 615px</p>
-									<p>Weekly CSA deminsions: 230px x 208px</p><br /><br />
+									<p>Weekly CSA deminsions: 212px x 187px</p><br /><br />
 
 										<label for="caption">Alt text/Veggie Description:</label>
 										<input type="text" name="caption" id="caption"><br>
@@ -35,7 +35,7 @@
 							$category = $_POST['category'];
 							require_once'class.fileupload.php';
 
-							$myFile = new FileUpload('photos/gallery/');
+							$myFile = new FileUpload('photos/'.$category.'/');
 							$myFile->upload(current($_FILES), $dbh, $title, $caption, $category);
 						}
 
