@@ -125,7 +125,7 @@ class FileUpload {
 
 	public function writeToDB($dbh, $name, $title, $caption, $category){
 		$newName = $this->path.$name;
-		$query = "INSERT INTO $category(path, title, caption) VALUES('$newName', '$title', '$caption')";
+		$query = "INSERT INTO photogallery(path, title, caption, archive, category) VALUES('$newName', '$title', '$caption',1, '$category')";
 		$result = mysqli_query($dbh, $query) or die("Photo name already taken");
 
 	}//methodWriteToDB

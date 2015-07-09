@@ -26,7 +26,7 @@ require_once'header.php';
 
 							<?php
 								require_once'populatephotos.php';
-								populatePhotos("photogallery", $dbh);
+								populatePhotos("photogallery", $dbh, "gallery");
 
 							?>
 

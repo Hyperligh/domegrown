@@ -6,50 +6,59 @@ $metad = "Local oragnic farm in Redmond, OR offers CSA | Dome Grown Produce";
 require_once'header.php';
 
 ?>
-				
+
 			
 					<div class="hero" id="hero">
 
 						<img src="photos/winter-dome-grown-farm-redmond-oregon.jpg" alt="Local produce for CSA shares in Redmond, OR">
 						
 					</div>
-				
+	
 		
 
 		</header>
-				
+
 				
 					<div class="row1-content cf">
-						<div class="left-row-1">
-								<h1><span>Photo gallery Upload</span></h1>
-								
-									<form action="_config.php" method="post" enctype="multipart/form-data">
+						<div class="left-row-1 full">
+							<nav>
+								<ul id="config-nav">
+									<li><a name="nav" value="photo-upload" href="_config.php">Photo Upload</a></li>
+									<li><a name="">Weekly CSA</a></li>
+									<li><a href="">Photo Gallery Photos</a></li>
+									<li><a href="">Home Slideshow Photos</a></li>
+									<li><a href="">Leads</a></li>
 
-										<label for="caption">Alt text:</label>
-										<input type="text" name="caption" id="caption"><br>
+								</ul>
+							</nav><br /><br />
+					<?php		
+					require_once'populatephotos.php';
+					if(isset($_POST['nav']) ) {
+						require_once'photo-upload.php';
+					}
+					else {
+						
 
-										<label for="title">Title:</label>
-										<input type="text" name="title" id="title"><br>
+							
+							echo"<br /><br /><h1>Weekly CSA Vegetables</h1>";
+					
+						listphotos("photogallery", $dbh, "weekly-csa", "Veggie Description");
 
-										<label for="file">File:</label>
-										<input type="file" name="file" id="file"><br>
 
-										<input type="submit" name="submit" value="Submit">
-									</form>
+							echo"<br /><br /><h1>Photo Gallery</h1>";
+						listphotos("photogallery", $dbh, "gallery", "Alt Text");
+
+							echo"<br /><br /><h1>Home Slideshow Photos</h1>";
+						listphotos("photogallery", $dbh, "home-slideshow", "Alt Text");
+
+						echo"<h1>Leads</h1>";
+						}
+
+
 
 						
-					<?php 
-						if(isset($_POST['submit'])) {
-							$category = "photogallery";
-							$title = $_POST['title'];
-							$caption = $_POST['caption'];
-							require_once'class.fileupload.php';
-							$myFile = new FileUpload('photos/gallery/');
-							$myFile->upload(current($_FILES), $dbh, $title, $caption, $category);
-						}
-						require_once'populatephotos.php';
 
-						listphotos("photogallery", $dbh);
+
 
 
 

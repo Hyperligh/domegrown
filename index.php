@@ -2,13 +2,13 @@
 $title = "Local CSA organic farm in Redmond, OR | Dome Grown Produce";
 $metad = "Redmond, OR local organic farm that has CSA for pickup near Bend | Dome Grown Produce";
 require_once'header.php';
-require_once'populatephotos';
+require_once'populatephotos.php';
 
 ?>
 				
 				
 					<ul class="hero" id="hero">
-						populatePhotos('hero');
+						<!-- populatePhotos('hero'); -->
 						<li><img src="photos/dome-grown-produce-local-farm-bend.jpg" alt="Local produce in Bend, OR"></li>
 						<li><img src="photos/purple-flower-redmond-local-farm.jpg" alt="Local produce in Bend, OR"></li>
 						<li><img src="photos/stormy-night-in-redmond-local-farms.jpg" alt="Local produce in Bend, OR"></li>
