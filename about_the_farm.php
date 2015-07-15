@@ -1,13 +1,13 @@
 <?php 
 $title = "About Dome Grown Produce in Redmond, OR";
-$metad = "Local oragnic farm in Redmond, OR offers CSA | Dome Grown Produce";
+$metad = "Farm in Redmond, OR offers CSA shares | Dome Grown Produce";
 require_once'header.php'; 
 ?>
 				
 			
 					<div class="hero" id="hero">
 
-						<img src="photos/winter-dome-grown-farm-redmond-oregon.jpg" alt="Local produce for CSA shares in Redmond, OR">
+						<img src="photos/winter-dome-grown-farm-redmond-oregon.jpg" alt="Produce for CSA shares in Redmond, OR">
 						
 					</div>
 				

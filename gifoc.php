@@ -1,5 +1,5 @@
 <?php
-require_once'connect.php';
+require_once'Rconnect.php';
 ob_start();
 $title = "About Dome Grown Produce in Redmond, OR";
 $metad = "Local oragnic farm in Redmond, OR offers CSA | Dome Grown Produce";

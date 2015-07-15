@@ -7,34 +7,40 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://domegrown.org/</loc>
+  <loc>http://www.domegrown.org/</loc>
 </url>
 <url>
-  <loc>http://domegrown.org/events.php</loc>
+  <loc>http://www.domegrown.org/directions.php</loc>
 </url>
 <url>
-  <loc>http://domegrown.org/recipes.php</loc>
+  <loc>http://www.domegrown.org/events.php</loc>
 </url>
 <url>
-  <loc>http://domegrown.org/directions.php</loc>
+  <loc>http://www.domegrown.org/recipes.php</loc>
 </url>
 <url>
-  <loc>http://domegrown.org/photo_gallery.php</loc>
+  <loc>http://www.domegrown.org/photo_gallery.php</loc>
 </url>
 <url>
-  <loc>http://domegrown.org/about_csa.php</loc>
+  <loc>http://www.domegrown.org/about_csa.php</loc>
 </url>
 <url>
-  <loc>http://domegrown.org/about_the_farm.php</loc>
+  <loc>http://www.domegrown.org/csa_faq.php</loc>
 </url>
 <url>
-  <loc>http://domegrown.org/csa_signup.php</loc>
+  <loc>http://www.domegrown.org/about_the_farm.php</loc>
 </url>
 <url>
-  <loc>http://domegrown.org/contact_us.php</loc>
+  <loc>http://www.domegrown.org/weekly_csa_share.php</loc>
 </url>
 <url>
-  <loc>http://domegrown.org/pdf/dome-grown-produce-csa-signup-brochure.pdf</loc>
+  <loc>http://www.domegrown.org/csa_signup.php</loc>
+</url>
+<url>
+  <loc>http://www.domegrown.org/contact_us.php</loc>
+</url>
+<url>
+  <loc>http://www.domegrown.org/pdf/dome-grown-produce-csa-signup-brochure.pdf</loc>
   <lastmod>2015-02-17T05:35:52+00:00</lastmod>
 </url>
 </urlset>

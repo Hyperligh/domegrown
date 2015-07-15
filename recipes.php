@@ -1,6 +1,6 @@
 <?php
 $title = "Seasonal recipes to help you cook with your CSA package vegetables from Dome Grown Produce";
-$metad = "Dome Grown Produce has special recipes to help you with your organic CSA packages in Redmond, OR";
+$metad = "Dome Grown Produce has special recipes to help you with your organic CSA packages in Redmond, OR CSA farm";
 require_once'header.php';
 ?>
 				

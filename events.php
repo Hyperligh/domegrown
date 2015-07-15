@@ -1,5 +1,5 @@
 <?php 
-$title = "Current events at the local organic farm in Redmond, Oregon | Dome Grown Produce";
+$title = "Current events at the organic farm in Redmond, Oregon | Dome Grown Produce";
 $metad = "Dome Grown Produce has events going on at the farm in Redmond, OR";
 require_once'header.php';
 ?>

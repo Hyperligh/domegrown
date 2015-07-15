@@ -1,8 +1,9 @@
 <?php 
-require_once'connect.php';
+require_once'Rconnect.php';
 $title = "Beautiful organic farm in Redmond, OR | Dome Grown Produce";
 $metad = "Local organic farm has CSA packages available in Redmond, OR | Dome Grown Produce";
 require_once'header.php'; 
+require_once'populatephotos.php';
 ?>
 				
 			
@@ -25,9 +26,7 @@ require_once'header.php';
 						<ul class="hero border-right" id="hero">
 
 							<?php
-								require_once'populatephotos.php';
-								populatePhotos("photogallery", $dbh, "gallery");
-
+								populatePhotos("photogallery", $dbh, 'gallery');
 							?>
 
 

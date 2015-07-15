@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<meta name="description" content="<?php echo $metad; ?>">
+	<meta name="description" content=" <?php echo $metad; ?> ">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 	<title><?php echo $title; ?></title>
 	<link rel="icon" href="photos/dome-grown-produce-local-csa-farm-redmond-or-favicon.png">
 	<link rel="stylesheet" href="style/domegrownstyle.css">
-	<link href='http://fonts.googleapis.com/css?family=Nunito:300light, 400normal, 700bold' rel='stylesheet' >
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300light, 300italic, 400normal, 400italic' rel='stylesheet' >
+	<link href='http://fonts.googleapis.com/css?family=Nunito:300light,400normal,700bold' rel='stylesheet' >
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300light,300italic,400normal,400italic' rel='stylesheet'>
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/responsiveslides.min.js"></script>
 	<script src="js/maplace-0.1.3.min.js"></script>
@@ -47,12 +47,13 @@
 								<ul id="subnav">
 								<li><a href="csa_faq.php">CSA Faq</a></li>
 								
-								</ul></li>
+								</ul>
+							</li>
 							<li><a href="about_the_farm.php">About Us</a>
-							<ul id="subnav">
-								
-								<li><a href="weekly_csa_share.php">Weekly CSA</a></li>
-								</ul></li>
+								<ul id="subnav">
+									<li><a href="weekly_csa_share.php">Weekly CSA</a></li>
+								</ul>
+							</li>
 							
 
 						</ul>

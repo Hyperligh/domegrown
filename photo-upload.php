@@ -1,11 +1,11 @@
 
 								<h1><span>Photo Upload</span></h1><br />
 								
-									<form action="_config.php" method="post" enctype="multipart/form-data">
+									<form action="config2.php" method="post" enctype="multipart/form-data">
 
 									<p>Gallery deminsions: 1000px X 549px</p>
 									<p>Hero deminnsions: 1600px X 615px</p>
-									<p>Weekly CSA deminsions: 212px x 187px</p><br /><br />
+									<p>Weekly CSA deminsions: 220px x 200px</p><br /><br />
 
 										<label for="caption">Alt text/Veggie Description:</label>
 										<input type="text" name="caption" id="caption"><br>

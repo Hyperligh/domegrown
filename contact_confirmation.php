@@ -2,7 +2,7 @@
 ob_start();
 require_once'Rconnect.php';
 $title = "Thank you for contacting Dome Grown Produce";
-$metad = "Redmond, Oregon organic farm thanks you for contacting Dome Grown Produce";
+$metad = "Redmond CSA farm thanks you for contacting Dome Grown Produce";
 require_once'header.php';
 ?>
 				

@@ -1,6 +1,8 @@
 <?php
-require_once'connect.php';
 ob_start();
+require_once'connect.php';
+
+
 $title = "About Dome Grown Produce in Redmond, OR";
 $metad = "Local oragnic farm in Redmond, OR offers CSA | Dome Grown Produce";
 require_once'header.php';
@@ -57,10 +59,23 @@ require_once'header.php';
 							echo"<br /><br /><h1>Home Slideshow Photos</h1>";
 						listphotos("photogallery", $dbh, "home-slideshow", "Alt Text");
 
-						echo"<h1>Leads</h1>";
-							
-						//}
+						echo"<div id='leads'>";
+						echo"<br /><br /><h1>Leads</h1>";
+						echo"<table>";
+						echo"<tr><th>Name</th><th>Address</th><th>City</th><th>State</th><th>Zip</th><th>Phone</th><th>Email</th><th>CSA Share</th><th>Eggs</th><th>Total Price</th></tr>";
+						$sql = "SELECT * FROM csa";
+						$results = mysqli_query($dbh, $sql) or die ("No Leads at this time.");
+						while($row = mysqli_fetch_assoc($results)) {
 
+							echo"<tr><td>".$row['name']."</td><td>".$row['address']."</td><td>".$row['city']."</td><td>".$row['state']."</td><td>".$row['zip']."</td><td>".$row['phone']."</td><td>".$row['email']."</td><td>".$row['csaShare']."</td>";//."</td><td>".$row['eggs']."</td><td>".$row['total']."</td">";
+
+
+
+						}
+						echo"</table></div>";
+	
+						//}
+						
 
 
 						

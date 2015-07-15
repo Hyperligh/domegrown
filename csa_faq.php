@@ -1,13 +1,13 @@
 <?php
-$title = "Redmond, OR, frequently asked questions about CSA | Dome Grown Produce";
-$metad = "Frequently asked questions about the CSA shares for the local farm Dome Grown Produce";
+$title = "Redmond, OR, CSA farm has helpful frequently asked questions about CSA | Dome Grown Produce";
+$metad = "Frequently asked questions about the CSA shares for the farm Dome Grown Produce";
 require_once'header.php';
 ?>
 				
 			
 					<div class="hero" id="hero">
 
-						<img src="photos/redmond-farm-tractor.jpg" alt="Local produce for CSA shares in Redmond, OR">
+						<img src="photos/redmond-farm-tractor.jpg" alt="Produce for CSA shares in Redmond, OR">
 						
 					</div>
 				
@@ -36,7 +36,7 @@ require_once'header.php';
 					
 						</div>
 								<div class="right-35 right-row-1 center ">
-									<img src="photos/farm-redmond-snowy-tree.jpg" alt="Local produce for CSA shares in Redmond, OR">
+									<img src="photos/farm-redmond-snowy-tree.jpg" alt="Produce for CSA shares in Redmond, OR">
 									
 									
 								</div>

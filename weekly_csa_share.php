@@ -1,7 +1,7 @@
 <?php
-require_once'connect.php';
-$title = "";
-$metad = "";
+require_once'Rconnect.php';
+$title = "Weekly CSA shares | Dome Grown Produce";
+$metad = "These are the weekly CSA shares you will be getting at the CSA farm in Redmond.";
 
 require_once'header.php';
 require_once'populatephotos.php';
