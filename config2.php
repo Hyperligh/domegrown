@@ -1,8 +1,9 @@
 <?php
+session_start();
 ob_start();
 require_once'connect.php';
-
-
+$flaglogin = FALSE;
+$flagg = FALSE;
 $title = "About Dome Grown Produce in Redmond, OR";
 $metad = "Local oragnic farm in Redmond, OR offers CSA | Dome Grown Produce";
 require_once'header.php';
@@ -29,16 +30,45 @@ require_once'header.php';
 				
 					<div class="row1-content cf">
 						<div class="left-row-1 full">
-							<nav>
-								<ul id="config-nav">
-									<li><a name="nav" value="photo-upload" href="">Photo Upload</a></li>
-									<li><a href="" name="">Weekly CSA</a></li>
-									<li><a href="">Photo Gallery Photos</a></li>
-									<li><a href="">Home Slideshow Photos</a></li>
-									<li><a href="">Leads</a></li>
+							
+						<?php
+							if(isset($_SESSION['admin']) == "domeGrown") {
+								echo"It's true f";
+							}
+							else {
+								if(isset($_POST['userSubmit'])) {
+									require'login.php';
 
-								</ul>
-							</nav><br /><br />
+								}
+								else {
+											echo'
+									<div id="userCredentials">
+										<form action="config2.php" method="POST" id="form">
+											<label for="username">Username:</label><input type="text" name="username" id="username">
+											<label for="password">Password:</label><input type="password" name="password" id="password">
+											<input type="submit" name="userSubmit" value="Submit">
+										</form>	
+									</div>';
+								}
+							}
+
+
+
+
+						?>
+							
+									
+
+									<nav>
+										<ul id="config-nav">
+											<li><a name="nav" value="photo-upload" href="">Photo Upload</a></li>
+											<li><a href="" name="">Weekly CSA</a></li>
+											<li><a href="">Photo Gallery Photos</a></li>
+											<li><a href="">Home Slideshow Photos</a></li>
+											<li><a href="">Leads</a></li>
+
+										</ul>
+									</nav><br /><br />
 					<?php		
 					require_once'populatephotos.php';
 					//if(isset($_POST['nav']) ) {
@@ -61,7 +91,7 @@ require_once'header.php';
 
 						echo"<div id='leads'>";
 						echo"<br /><br /><h1>Leads</h1>";
-						echo"<table>";
+						/*echo"<table>";
 						echo"<tr><th>Name</th><th>Address</th><th>City</th><th>State</th><th>Zip</th><th>Phone</th><th>Email</th><th>CSA Share</th><th>Eggs</th><th>Total Price</th></tr>";
 						$sql = "SELECT * FROM csa";
 						$results = mysqli_query($dbh, $sql) or die ("No Leads at this time.");
@@ -72,7 +102,7 @@ require_once'header.php';
 
 
 						}
-						echo"</table></div>";
+						echo"</table></div>";*/
 	
 						//}
 						
